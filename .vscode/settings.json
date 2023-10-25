@@ -1,0 +1,6 @@
+{
+    "editor.formatOnSave": true,
+    "html.format.preserveNewLines": true,
+    "html.format.wrapLineLength": 120,
+    "git.enabled": true
+}
