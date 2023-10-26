@@ -5,7 +5,7 @@ const Hero = () => {
 		<div className="pt-20 pb-20 h-fit px-sectionpl">
 			{/* Hero Identity */}
 			<div className="relative px-6 py-2 m-auto align-middle rounded-full dark:bg-accent bg-lightblue w-fit h-fit">
-				<p className="text-center text-[16px] text-primary">
+				<p className="text-center text-[16px] dark:font-medium font-semibold text-primary">
 					Product Designer
 				</p>
 			</div>
@@ -23,7 +23,7 @@ const Hero = () => {
 
 			{/* Hero Description */}
 			<div className="relative m-auto mt-8">
-				<p className="text-lg font-light leading-8 text-center text-black dark:text-white">
+				<p className="text-lg font-normal leading-8 text-center text-black dark:font-light dark:text-white">
 					A <span className="text-primary">tech-savvy artist</span>{" "}
 					crafting interfaces for over 4 years, blending the art of
 					Product Design with Front-end Development.
