@@ -596,6 +596,7 @@ video {
 :root {
 	/* Color Palette */
 	--black: #272727;
+	--grey: #e7e7e7;
 	--lightgrey: #f3f3f3;
 	--lightblue: #e1ecf4;
 	--white: #ffffff;

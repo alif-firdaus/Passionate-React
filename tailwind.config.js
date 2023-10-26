@@ -7,6 +7,7 @@ module.exports = {
 		extend: {
 			colors: {
 				black: "var(--black)",
+				grey: "var(--grey)",
 				lightgrey: "var(--lightgrey)",
 				lightblue: "var(--lightblue)",
 				white: "var(--white)",
