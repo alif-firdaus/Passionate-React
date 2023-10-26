@@ -33,28 +33,28 @@ const Tools = () => {
 						"linear-gradient(to right, hsla(0 0% 0% / 0), hsla(0 0% 0% / 1) 10%, hsla(0 0% 0% / 1) 90%, hsla(0 0% 0% / 0))",
 				}}
 			>
-				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl bg-accent h-fit">
+				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
 					<img src={figma} alt="figma" className="h-6 " />
 				</div>
-				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl bg-accent h-fit">
+				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
 					<img src={adobexd} alt="adobexd" className="h-6 " />
 				</div>
-				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl bg-accent h-fit">
+				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
 					<img src={sketch} alt="sketch" className="h-6 " />
 				</div>
-				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl bg-accent h-fit">
+				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
 					<img src={studio} alt="studio" className="h-6 " />
 				</div>
-				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl bg-accent h-fit">
+				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
 					<img src={figma} alt="figma" className="h-6 " />
 				</div>
-				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl bg-accent h-fit">
+				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
 					<img src={adobexd} alt="adobexd" className="h-7 " />
 				</div>
-				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl bg-accent h-fit">
+				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
 					<img src={sketch} alt="sketch" className="h-6 " />
 				</div>
-				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl bg-accent h-fit">
+				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
 					<img src={studio} alt="studio" className="h-6 " />
 				</div>
 			</Marquee>
@@ -69,28 +69,28 @@ const Tools = () => {
 						"linear-gradient(to right, hsla(0 0% 0% / 0), hsla(0 0% 0% / 1) 10%, hsla(0 0% 0% / 1) 90%, hsla(0 0% 0% / 0))",
 				}}
 			>
-				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl bg-accent h-fit">
+				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
 					<img src={react} alt="react" className="h-6 " />
 				</div>
-				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl bg-accent h-fit">
+				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
 					<img src={tailwind} alt="tailwind" className="h-5 " />
 				</div>
-				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl bg-accent h-fit">
+				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
 					<img src={miro} alt="miro" className="h-6 " />
 				</div>
-				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl bg-accent h-fit">
+				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
 					<img src={notion} alt="notion" className="h-6 " />
 				</div>
-				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl bg-accent h-fit">
+				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
 					<img src={react} alt="react" className="h-6 " />
 				</div>
-				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl bg-accent h-fit">
+				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
 					<img src={tailwind} alt="tailwind" className="h-5 " />
 				</div>
-				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl bg-accent h-fit">
+				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
 					<img src={miro} alt="miro" className="h-6 " />
 				</div>
-				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl bg-accent h-fit">
+				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
 					<img src={notion} alt="notion" className="h-6 " />
 				</div>
 			</Marquee>
