@@ -52,7 +52,7 @@ function Navbar() {
 	return (
 		<nav className="sticky top-0 z-10 flex items-center justify-between py-4 border-b-[1px] backdrop-blur-lg dark:border-slate-50 border-slate-400 dark:border-opacity-10 border-opacity-20">
 			{/* Navbar Title */}
-			<div className="flex items-center font-semibold cursor-pointer text-[24px] pb-[2px] dark:text-white text-black ml-[32px]">
+			<div className="flex items-center font-semibold cursor-pointer text-[24px] pb-[2px] dark:text-white text-black ml-[26px]">
 				Passionate
 			</div>
 
@@ -81,7 +81,7 @@ function Navbar() {
 			</div>
 
 			{/* Navbar Extra */}
-			<div className="flex justify-between gap-4 mr-[32px]">
+			<div className="flex justify-between gap-4 mr-[26px]">
 				<div
 					className="flex justify-center border-[1px] w-[40px] h-[40px] rounded-md dark:border-slate-50 border-slate-400 dark:border-opacity-10 border-opacity-20 items-center cursor-pointer"
 					onClick={handleThemeSwitch}
