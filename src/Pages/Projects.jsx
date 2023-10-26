@@ -5,7 +5,7 @@ const Projects = () => {
 	return (
 		<div id="projects" className="pb-44 pt-36 px-sectionpl">
 			{/* Projects Title */}
-			<h1 className="text-5xl font-semibold text-center text-white">
+			<h1 className="text-5xl font-semibold text-center text-black dark:text-white">
 				Featured projects I{" "}
 				<span className="text-transparent bg-gradient-to-r from-primary via-purple-500 to-pink-500 bg-clip-text">
 					have created
@@ -16,7 +16,7 @@ const Projects = () => {
 			{/* Projects Container 1 */}
 			<div className="flex flex-col items-center justify-between pt-20 gap-7 h-fit">
 				{/* Projects 1 */}
-				<div className="w-full px-6 py-5 text-white bg-accent rounded-xl">
+				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-accent rounded-xl">
 					<img
 						src={fixit}
 						alt="fixit"
@@ -31,14 +31,14 @@ const Projects = () => {
 						professional service providers for their needs.
 					</p>
 					<a href="#" target="_blank" rel="noopener noreferrer">
-						<button className="px-5 pt-3 pb-[14px] bg-[#21254c] mt-8 rounded-lg text-[16px] w-fit h-fit">
+						<button className="px-5 pt-3 pb-[14px] dark:bg-[#21254c] bg-lightgrey font-medium mt-8 rounded-lg text-[16px] w-fit h-fit">
 							View Case Study
 						</button>
 					</a>
 				</div>
 
 				{/* Projects 2 */}
-				<div className="w-full px-6 py-5 text-white bg-accent rounded-xl">
+				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-accent rounded-xl">
 					<img
 						src={fixit}
 						alt="fixit"
@@ -53,7 +53,7 @@ const Projects = () => {
 						professional service providers for their needs.
 					</p>
 					<a href="#" target="_blank" rel="noopener noreferrer">
-						<button className="px-5 pt-3 pb-[14px] bg-[#21254c] mt-12 rounded-lg text-[16px] w-fit h-fit">
+						<button className="px-5 pt-3 pb-[14px] dark:bg-[#21254c] bg-lightgrey font-medium mt-8 rounded-lg text-[16px] w-fit h-fit">
 							View Case Study
 						</button>
 					</a>
@@ -63,7 +63,7 @@ const Projects = () => {
 			{/* Projects Container 2 */}
 			<div className="flex flex-col items-center justify-between pt-7 gap-7 h-fit">
 				{/* Projects 3 */}
-				<div className="w-full px-6 py-5 text-white bg-accent rounded-xl">
+				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-accent rounded-xl">
 					<img
 						src={fixit}
 						alt="fixit"
@@ -78,14 +78,14 @@ const Projects = () => {
 						professional service providers for their needs.
 					</p>
 					<a href="#" target="_blank" rel="noopener noreferrer">
-						<button className="px-5 pt-3 pb-[14px] bg-[#21254c] mt-12 rounded-lg text-[16px] w-fit h-fit">
+						<button className="px-5 pt-3 pb-[14px] dark:bg-[#21254c] bg-lightgrey font-medium mt-8 rounded-lg text-[16px] w-fit h-fit">
 							View Case Study
 						</button>
 					</a>
 				</div>
 
 				{/* Projects 4 */}
-				<div className="w-full px-6 py-5 text-white bg-accent rounded-xl">
+				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-accent rounded-xl">
 					<img
 						src={fixit}
 						alt="fixit"
@@ -100,7 +100,7 @@ const Projects = () => {
 						professional service providers for their needs.
 					</p>
 					<a href="#" target="_blank" rel="noopener noreferrer">
-						<button className="px-5 pt-3 pb-[14px] bg-[#21254c] mt-12 rounded-lg text-[16px] w-fit h-fit">
+						<button className="px-5 pt-3 pb-[14px] dark:bg-[#21254c] bg-lightgrey font-medium mt-8 rounded-lg text-[16px] w-fit h-fit">
 							View Case Study
 						</button>
 					</a>
