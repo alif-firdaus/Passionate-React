@@ -50,7 +50,7 @@ function Navbar() {
 	};
 
 	return (
-		<nav className="sticky top-0 z-10 flex items-center justify-between py-4 border-b-[1px] backdrop-blur-lg border-slate-50 border-opacity-20">
+		<nav className="sticky top-0 z-10 flex items-center justify-between py-4 border-b-[1px] backdrop-blur-lg dark:border-slate-50 border-slate-400 dark:border-opacity-10 border-opacity-20">
 			{/* Navbar Title */}
 			<div className="flex items-center font-semibold cursor-pointer text-[24px] pb-[2px] dark:text-white text-black ml-[35px]">
 				Passionate
@@ -83,7 +83,7 @@ function Navbar() {
 			{/* Navbar Extra */}
 			<div className="flex justify-between gap-4 mr-[35px]">
 				<div
-					className="flex justify-center border-[1px] border-opacity-20 w-[40px] h-[40px] rounded-md border-slate-50 items-center cursor-pointer"
+					className="flex justify-center border-[1px] w-[40px] h-[40px] rounded-md dark:border-slate-50 border-slate-400 dark:border-opacity-10 border-opacity-20 items-center cursor-pointer"
 					onClick={handleThemeSwitch}
 				>
 					{theme === "dark" ? (
@@ -97,12 +97,12 @@ function Navbar() {
 					onClick={() => {
 						setIsOpen(!isOpen);
 					}}
-					className="flex justify-center border-[1px] border-opacity-20 w-[40px] h-[40px] rounded-md border-slate-50 items-center cursor-pointer"
+					className="flex justify-center border-[1px] w-[40px] h-[40px] rounded-md dark:border-slate-50 border-slate-400 dark:border-opacity-10 border-opacity-20 items-center cursor-pointer"
 				>
 					{isOpen ? (
-						<XMarkIcon className="w-7 stroke-[1.3px] text-white" />
+						<XMarkIcon className="w-7 stroke-[1.3px] dark:text-white text-black" />
 					) : (
-						<Bars3Icon className="w-7 stroke-[1.3px] text-white" />
+						<Bars3Icon className="w-7 stroke-[1.3px] dark:text-white text-black" />
 					)}
 				</div>
 			</div>
