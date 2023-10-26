@@ -58,8 +58,8 @@ function Navbar() {
 
 			{/* Navbar Links */}
 			<div
-				className={`fixed gap-4 pt-6 w-full flex flex-col px-sectionpl h-screen bg-base z-[1] ${
-					isOpen ? "top-[71px]" : "-left-full"
+				className={`fixed gap-4 pt-6 w-full flex flex-col px-sectionpl h-screen dark:bg-base bg-white z-[1] ${
+					isOpen ? "top-[73px]" : "-left-full"
 				}`}
 			>
 				{menuOptions.map((option, index) => (
@@ -68,7 +68,7 @@ function Navbar() {
 						key={index}
 					>
 						<a
-							className="flex w-full pb-5 items-center text-lg font-light text-white border-slate-50 border-b-[1px] border-opacity-10"
+							className="flex w-full pb-5 items-center text-lg font-light dark:text-white text-black dark:border-slate-50 border-slate-400 border-opacity-20 border-b-[1px] dark:border-opacity-10"
 							href={option.href}
 							onClick={() => {
 								setIsOpen(!isOpen);
