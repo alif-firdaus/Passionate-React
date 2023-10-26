@@ -2,7 +2,7 @@ import React from "react";
 
 const Getintouch = () => {
 	return (
-		<div className="pt-20 pb-56 h-fit bg-base px-sectionpl">
+		<div id="getintouch" className="pt-20 pb-56 h-fit bg-base px-sectionpl">
 			{/* Get in Touch Title */}
 			<h1 className="text-5xl font-semibold text-center text-white">
 				Turning your ideas into{" "}

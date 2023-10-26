@@ -17,7 +17,7 @@ import notion from "../Assets/notion.png";
 
 const Tools = () => {
 	return (
-		<div className="pt-20 pb-28 h-fit">
+		<div id="tools" className="pt-20 pb-28 h-fit">
 			{/* Tools Title */}
 			<h1 className="text-lg text-center text-black dark:text-white px-sectionpl">
 				Tools and Tech-stacks that I use

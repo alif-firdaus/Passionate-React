@@ -2,7 +2,10 @@ import React from "react";
 
 const Experience = () => {
 	return (
-		<div className="relative w-full h-auto pb-36 pt-28 bg-gradient-to-br from-purple-800 to-purple-950 px-sectionpl">
+		<div
+			id="experience"
+			className="relative w-full h-auto pb-36 pt-28 bg-gradient-to-br from-purple-800 to-purple-950 px-sectionpl"
+		>
 			{/* Experience Title */}
 			<h1 className="text-5xl font-semibold text-center text-white">
 				My career path as Tech-savvy Artist

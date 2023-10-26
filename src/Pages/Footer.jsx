@@ -6,7 +6,10 @@ import behance from "../Assets/behance.png";
 
 const Footer = () => {
 	return (
-		<div className="relative w-full h-auto pb-12 pt-14 bg-gradient-to-br from-purple-800 to-purple-950">
+		<div
+			id="footer"
+			className="relative w-full h-auto pb-12 pt-14 bg-gradient-to-br from-purple-800 to-purple-950"
+		>
 			{/* Footer Title */}
 			<div className="px-sectionpl">
 				<div className="flex items-center font-semibold cursor-pointer text-[24px] pb-[2px] text-white">
