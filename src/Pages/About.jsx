@@ -13,7 +13,7 @@ const About = () => {
 			className="relative w-full h-auto pt-20 pb-40 px-sectionpl"
 		>
 			{/* About Title */}
-			<h1 className="text-5xl font-semibold text-center text-white">
+			<h1 className="text-5xl font-semibold text-center text-black dark:text-white">
 				Delivering results that go{" "}
 				<span className="text-transparent bg-gradient-to-r from-primary via-purple-500 to-pink-500 bg-clip-text">
 					beyond expectations
@@ -54,11 +54,11 @@ const About = () => {
 
 			{/* About Line */}
 			<div className="flex justify-center mt-20">
-				<div className="w-20 h-1 bg-white rounded-full"></div>
+				<div className="w-20 h-1 bg-black rounded-full dark:bg-white"></div>
 			</div>
 
 			{/* About Description */}
-			<p className="z-40 mt-16 text-lg font-light leading-8 text-center text-white">
+			<p className="z-40 mt-16 text-lg font-normal leading-8 text-center text-black dark:font-light dark:text-white">
 				I am Alif Firdaus, a skilled Product Designer and Front-end
 				Developer renowned for exceeding expectations with my meticulous
 				attention to detail and in-depth understanding of the harmony
@@ -66,11 +66,10 @@ const About = () => {
 				expertise, I am confident to bring your ideas to life!
 			</p>
 
-			{/* About Socials */}
+			{/* Socials Container 2 */}
 			<div className="flex flex-col items-center justify-between pt-20 gap-7 h-fit">
-				{/* Socials Container 1 */}
-				<div className="w-full px-6 py-5 text-white bg-accent rounded-xl">
-					{/* Linkedin */}
+				{/* Linkedin */}
+				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-accent rounded-xl">
 					<div className="flex items-center justify-center px-[14px] py-[14px] bg-green-700 rounded-md w-fit h-fit">
 						<img src={linkedin} alt="linkedin" className="w-6" />
 					</div>
@@ -83,14 +82,14 @@ const About = () => {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<button className="px-6 pt-3 pb-[14px] bg-[#21254c] mt-8 rounded-lg text-[16px] w-fit h-fit">
+						<button className="px-6 pt-3 pb-[14px] dark:bg-[#21254c] bg-lightgrey mt-8 rounded-lg text-[16px] w-fit h-fit">
 							Check out
 						</button>
 					</a>
 				</div>
 
 				{/* Dribbble */}
-				<div className="w-full px-6 py-5 text-white bg-accent rounded-xl">
+				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-accent rounded-xl">
 					<div className="flex items-center justify-center px-[14px] py-[14px] bg-orange-600 rounded-md w-fit h-fit">
 						<img src={dribbble} alt="dribble" className="w-6" />
 					</div>
@@ -103,7 +102,7 @@ const About = () => {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<button className="px-6 pt-3 pb-[14px] bg-[#21254c] mt-8 rounded-lg text-[16px] w-fit h-fit">
+						<button className="px-6 pt-3 pb-[14px] dark:bg-[#21254c] bg-lightgrey mt-8 rounded-lg text-[16px] w-fit h-fit">
 							Check out
 						</button>
 					</a>
@@ -113,7 +112,7 @@ const About = () => {
 			{/* Socials Container 2 */}
 			<div className="flex flex-col items-center justify-between pt-7 gap-7 h-fit">
 				{/* Github */}
-				<div className="w-full px-6 py-5 text-white bg-accent rounded-xl">
+				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-accent rounded-xl">
 					<div className="flex items-center justify-center px-[14px] py-[14px] bg-purple-700 rounded-md w-fit h-fit">
 						<img src={github} alt="github" className="w-6" />
 					</div>
@@ -126,14 +125,14 @@ const About = () => {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<button className="px-6 pt-3 pb-[14px] bg-[#21254c] mt-8 rounded-lg text-[16px] w-fit h-fit">
+						<button className="px-6 pt-3 pb-[14px] dark:bg-[#21254c] bg-lightgrey mt-8 rounded-lg text-[16px] w-fit h-fit">
 							Check out
 						</button>
 					</a>
 				</div>
 
 				{/* Behance */}
-				<div className="w-full px-6 py-5 text-white bg-accent rounded-xl">
+				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-accent rounded-xl">
 					<div className="flex items-center justify-center px-[14px] py-[14px] bg-blue-700 rounded-md w-fit h-fit">
 						<img src={behance} alt="behance" className="w-6" />
 					</div>
@@ -146,7 +145,7 @@ const About = () => {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<button className="px-6 pt-3 pb-[14px] bg-[#21254c] mt-8 rounded-lg text-[16px] w-fit h-fit">
+						<button className="px-6 pt-3 pb-[14px] dark:bg-[#21254c] bg-lightgrey mt-8 rounded-lg text-[16px] w-fit h-fit">
 							Check out
 						</button>
 					</a>
