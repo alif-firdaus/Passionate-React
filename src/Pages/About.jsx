@@ -74,7 +74,7 @@ const About = () => {
 						<img src={linkedin} alt="linkedin" className="w-6" />
 					</div>
 					<h1 className="text-[23px] mt-5 font-semibold">Linkedin</h1>
-					<p className="mt-2 text-lgfont-light">
+					<p className="mt-2 text-lg font-normal dark:font-light">
 						See my career path on Linkedin
 					</p>
 					<a
@@ -82,7 +82,7 @@ const About = () => {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<button className="px-6 pt-3 pb-[14px] dark:bg-[#21254c] bg-lightgrey mt-8 rounded-lg text-[16px] w-fit h-fit">
+						<button className="px-6 pt-3 pb-[14px] dark:bg-[#21254c] bg-lightgrey mt-8 font-medium rounded-lg text-[16px] w-fit h-fit">
 							Check out
 						</button>
 					</a>
@@ -94,7 +94,7 @@ const About = () => {
 						<img src={dribbble} alt="dribble" className="w-6" />
 					</div>
 					<h1 className="text-[23px] mt-5 font-semibold">Dribbble</h1>
-					<p className="mt-3 text-lg font-light">
+					<p className="mt-2 text-lg font-normal dark:font-light">
 						See my Portfolio on Dribbble
 					</p>
 					<a
@@ -102,7 +102,7 @@ const About = () => {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<button className="px-6 pt-3 pb-[14px] dark:bg-[#21254c] bg-lightgrey mt-8 rounded-lg text-[16px] w-fit h-fit">
+						<button className="px-6 pt-3 pb-[14px] dark:bg-[#21254c] bg-lightgrey mt-8 font-medium rounded-lg text-[16px] w-fit h-fit">
 							Check out
 						</button>
 					</a>
@@ -117,7 +117,7 @@ const About = () => {
 						<img src={github} alt="github" className="w-6" />
 					</div>
 					<h1 className="text-[23px] mt-5 font-semibold">Github</h1>
-					<p className="mt-3 text-lg font-light">
+					<p className="mt-2 text-lg font-normal dark:font-light">
 						See my Repositories on Github
 					</p>
 					<a
@@ -125,7 +125,7 @@ const About = () => {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<button className="px-6 pt-3 pb-[14px] dark:bg-[#21254c] bg-lightgrey mt-8 rounded-lg text-[16px] w-fit h-fit">
+						<button className="px-6 pt-3 pb-[14px] dark:bg-[#21254c] bg-lightgrey mt-8 font-medium rounded-lg text-[16px] w-fit h-fit">
 							Check out
 						</button>
 					</a>
@@ -137,7 +137,7 @@ const About = () => {
 						<img src={behance} alt="behance" className="w-6" />
 					</div>
 					<h1 className="text-[23px] mt-5 font-semibold">Behance</h1>
-					<p className="mt-3 text-lg font-light">
+					<p className="mt-2 text-lg font-normal dark:font-light">
 						See my Portfolio on Behance
 					</p>
 					<a
@@ -145,7 +145,7 @@ const About = () => {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<button className="px-6 pt-3 pb-[14px] dark:bg-[#21254c] bg-lightgrey mt-8 rounded-lg text-[16px] w-fit h-fit">
+						<button className="px-6 pt-3 pb-[14px] dark:bg-[#21254c] bg-lightgrey mt-8 font-medium rounded-lg text-[16px] w-fit h-fit">
 							Check out
 						</button>
 					</a>
