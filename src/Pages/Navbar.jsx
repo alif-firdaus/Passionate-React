@@ -68,7 +68,7 @@ function Navbar() {
 						key={index}
 					>
 						<a
-							className="flex w-full pb-5 items-center text-lg font-light dark:text-white text-black dark:border-slate-50 border-slate-400 border-opacity-20 border-b-[1px] dark:border-opacity-10"
+							className="flex w-full pb-5 items-center text-lg font-light dark:text-white text-black dark:border-slate-50 border-slate-400 dark:border-opacity-10 border-opacity-20 border-b-[1px]"
 							href={option.href}
 							onClick={() => {
 								setIsOpen(!isOpen);
