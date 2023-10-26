@@ -19,8 +19,8 @@ const Tools = () => {
 	return (
 		<div className="pt-20 pb-28 h-fit">
 			{/* Tools Title */}
-			<h1 className="text-lg text-center text-white">
-				Tools and Technologies that I use
+			<h1 className="text-lg text-center text-black dark:text-white px-sectionpl">
+				Tools and Tech-stacks that I use
 			</h1>
 
 			{/* Marquee Row 1 */}
