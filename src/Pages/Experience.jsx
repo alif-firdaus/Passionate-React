@@ -7,12 +7,12 @@ const Experience = () => {
 			className="relative w-full h-auto pb-36 pt-28 bg-gradient-to-br from-purple-800 to-purple-950 px-sectionpl"
 		>
 			{/* Experience Title */}
-			<h1 className="text-5xl font-semibold text-center text-white">
+			<h1 className="text-5xl font-semibold text-center text-white md:text-6xl">
 				My career path as Tech-savvy Artist
 			</h1>
 
 			{/* Experience Container 1 */}
-			<div className="flex flex-col items-center justify-between pt-20 gap-7 h-fit">
+			<div className="flex flex-col items-center justify-between pt-20 md:flex-row gap-7 md:gap-5 h-fit">
 				{/* Experience 1 */}
 				<div className="w-full px-6 py-5 text-white bg-purple-700 bg-opacity-50 rounded-xl">
 					<div className="flex items-center justify-between">
@@ -56,7 +56,7 @@ const Experience = () => {
 			</div>
 
 			{/* Experience Container 2 */}
-			<div className="flex flex-col items-center justify-between pt-7 gap-7 h-fit">
+			<div className="flex flex-col items-center justify-between md:flex-row pt-7 md:pt-5 gap-7 md:gap-5 h-fit">
 				{/* Experience 3 */}
 				<div className="w-full px-6 py-5 text-white bg-purple-700 bg-opacity-50 rounded-xl">
 					<div className="flex items-center justify-between">
