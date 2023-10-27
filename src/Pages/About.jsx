@@ -14,7 +14,7 @@ const About = () => {
 				className="relative w-full h-auto pt-20 px-sectionpl"
 			>
 				{/* About Title */}
-				<h1 className="text-5xl font-semibold text-center text-black dark:text-white">
+				<h1 className="text-5xl font-semibold text-center text-black md:text-6xl dark:text-white">
 					Delivering results that go{" "}
 					<span className="text-transparent bg-gradient-to-r from-primary via-purple-500 to-pink-500 bg-clip-text">
 						beyond expectations
@@ -23,14 +23,14 @@ const About = () => {
 			</div>
 
 			{/* About Decoration */}
-			<div className="mt-20 px-sectionpl">
-				<div className="relative flex bg-purple-600 pt-14 h-fit rounded-3xl">
+			<div className="mt-20 px-sectionpl md:px-0">
+				<div className="relative flex bg-purple-600 pt-14 md:pt-20 h-fit rounded-3xl md:rounded-none">
 					<img
 						src={picc}
 						alt="picc"
-						className="relative object-contain w-10/12 h-full origin-bottom-left"
+						className="relative object-contain w-10/12 h-full origin-bottom-left md:w-6/12"
 					/>
-					<div className="absolute bottom-0 w-full px-6 py-6 bg-none h-fit">
+					<div className="absolute bottom-0 w-full px-6 py-6 md:hidden bg-none h-fit">
 						<div className="px-4 py-3 text-black rounded-xl backdrop-blur-lg bg-slate-50 bg-opacity-70">
 							<div className="flex items-center justify-between">
 								<div className="flex items-center justify-between gap-3">
