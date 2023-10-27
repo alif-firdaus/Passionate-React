@@ -119,7 +119,7 @@ const About = () => {
 			</div>
 
 			{/* Socials Container 2 */}
-			<div className="flex flex-col items-center justify-between pb-40 md:flex-row pt-7 md:pt-5 gap-7 md:gap-5 h-fit px-sectionpl">
+			<div className="flex flex-col items-center justify-between pb-40 md:flex-row pt-7 md:pt-6 gap-7 md:gap-5 h-fit px-sectionpl">
 				{/* Github */}
 				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-accent rounded-xl">
 					<div className="flex items-center justify-center px-[14px] py-[14px] bg-purple-700 rounded-md w-fit h-fit">

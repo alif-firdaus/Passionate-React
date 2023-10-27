@@ -54,7 +54,7 @@ const Expertise = () => {
 			</div>
 
 			{/* Expertise Container 2 */}
-			<div className="flex flex-col items-center justify-between md:flex-row pt-7 md:pt-5 gap-7 md:gap-5 h-fit">
+			<div className="flex flex-col items-center justify-between md:flex-row pt-7 md:pt-6 gap-7 md:gap-5 h-fit">
 				{/* Prototyping */}
 				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-accent rounded-xl">
 					<div className="flex items-center justify-center px-[14px] py-[14px] dark:bg-[#21254c] bg-lightgrey rounded-md w-fit h-fit">

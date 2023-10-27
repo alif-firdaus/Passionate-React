@@ -56,7 +56,7 @@ const Experience = () => {
 			</div>
 
 			{/* Experience Container 2 */}
-			<div className="flex flex-col items-center justify-between md:flex-row pt-7 md:pt-5 gap-7 md:gap-5 h-fit">
+			<div className="flex flex-col items-center justify-between md:flex-row pt-7 md:pt-6 gap-7 md:gap-5 h-fit">
 				{/* Experience 3 */}
 				<div className="w-full px-6 py-5 text-white bg-purple-700 bg-opacity-50 rounded-xl">
 					<div className="flex items-center justify-between">
