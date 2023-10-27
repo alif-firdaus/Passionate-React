@@ -12,7 +12,7 @@ const Hero = () => {
 
 			{/* Hero Headline */}
 			<div className="relative m-auto mt-9">
-				<h1 className="text-5xl font-semibold text-center text-black dark:text-white">
+				<h1 className="text-5xl font-semibold text-center text-black md:text-6xl dark:text-white">
 					Crafting pixels to make{" "}
 					<span className="text-transparent bg-gradient-to-r from-primary via-purple-500 to-pink-500 bg-clip-text">
 						dreams
