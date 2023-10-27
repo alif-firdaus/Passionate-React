@@ -8,7 +8,7 @@ const Getintouch = () => {
 		>
 			{/* Get in Touch Title */}
 			<h1 className="text-5xl font-semibold text-center text-black dark:text-white">
-				Turning your ideas into{" "}
+				Turning your ideas intoo{" "}
 				<span className="text-transparent bg-gradient-to-r from-primary via-purple-500 to-pink-500 bg-clip-text">
 					real-life
 				</span>{" "}
