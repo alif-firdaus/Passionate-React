@@ -83,7 +83,7 @@ function Navbar() {
 			{/* Navbar Extra */}
 			<div className="flex justify-between gap-4 mr-[26px]">
 				<div
-					className="flex justify-center border-[1px] w-[40px] h-[40px] rounded-md dark:border-slate-50 border-slate-400 dark:border-opacity-10 border-opacity-20 items-center cursor-pointer"
+					className="flex justify-center border-[1px] w-[40px] h-[40px] rounded-lg dark:border-slate-50 border-slate-400 dark:border-opacity-10 border-opacity-20 items-center cursor-pointer"
 					onClick={handleThemeSwitch}
 				>
 					{theme === "dark" ? (
@@ -97,12 +97,12 @@ function Navbar() {
 					onClick={() => {
 						setIsOpen(!isOpen);
 					}}
-					className="flex justify-center border-[1px] w-[40px] h-[40px] rounded-md dark:border-slate-50 border-slate-400 dark:border-opacity-10 border-opacity-20 items-center cursor-pointer"
+					className="flex justify-center border-[1px] w-[40px] h-[40px] rounded-lg dark:border-slate-50 border-slate-400 dark:border-opacity-10 border-opacity-20 items-center cursor-pointer"
 				>
 					{isOpen ? (
-						<XMarkIcon className="w-7 stroke-[1.3px] dark:text-white text-black" />
+						<XMarkIcon className="w-6 stroke-[1.3px] dark:text-white text-black" />
 					) : (
-						<Bars3Icon className="w-7 stroke-[1.3px] dark:text-white text-black" />
+						<Bars3Icon className="w-6 stroke-[1.3px] dark:text-white text-black" />
 					)}
 				</div>
 			</div>
