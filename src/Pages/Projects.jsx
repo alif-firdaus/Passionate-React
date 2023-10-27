@@ -5,7 +5,7 @@ const Projects = () => {
 	return (
 		<div id="projects" className="pb-44 pt-36 px-sectionpl">
 			{/* Projects Title */}
-			<h1 className="text-5xl font-semibold text-center text-black dark:text-white">
+			<h1 className="text-5xl font-semibold text-center text-black md:text-6xl dark:text-white">
 				Featured projects I{" "}
 				<span className="text-transparent bg-gradient-to-r from-primary via-purple-500 to-pink-500 bg-clip-text">
 					have created
