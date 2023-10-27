@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 // Marquee
 import Marquee from "react-fast-marquee";
@@ -9,6 +9,8 @@ import adobexd from "../Assets/adobexd.png";
 import sketch from "../Assets/sketch.png";
 import studio from "../Assets/studio.png";
 
+import picc from "../Assets/picc.png";
+
 // Marquee Col 2
 import react from "..//Assets/react.png";
 import tailwind from "../Assets/tailwind.png";
@@ -16,6 +18,9 @@ import miro from "../Assets/miro.png";
 import notion from "../Assets/notion.png";
 
 const Tools = () => {
+	// Dark Mode Switcher //
+	const [theme, setTheme] = useState("dark");
+
 	return (
 		<div id="tools" className="pt-20 pb-28 h-fit">
 			{/* Tools Title */}
@@ -34,7 +39,11 @@ const Tools = () => {
 				}}
 			>
 				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
-					<img src={figma} alt="figma" className="h-6 " />
+					{theme === "light" ? (
+						<img src={adobexd} alt="adobexd" className="h-6" />
+					) : (
+						<img src={picc} alt="picc" className="h-6" />
+					)}
 				</div>
 				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
 					<img src={adobexd} alt="adobexd" className="h-6 " />
