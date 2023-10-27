@@ -23,12 +23,12 @@ const About = () => {
 			</div>
 
 			{/* About Decoration */}
-			<div className="mt-20 px-sectionpl md:px-0">
-				<div className="relative flex bg-purple-600 pt-14 md:pt-20 h-fit rounded-3xl md:rounded-none">
+			<div className="mt-20 px-sectionpl">
+				<div className="relative flex bg-purple-600 pt-14 md:pt-16 h-fit rounded-3xl">
 					<img
 						src={picc}
 						alt="picc"
-						className="relative object-contain w-10/12 h-full origin-bottom-left md:w-6/12"
+						className="relative object-contain w-9/12 h-full origin-bottom-left md:w-6/12"
 					/>
 					<div className="absolute bottom-0 w-full px-6 py-6 md:hidden bg-none h-fit">
 						<div className="px-4 py-3 text-black rounded-xl backdrop-blur-lg bg-slate-50 bg-opacity-70">
@@ -76,7 +76,7 @@ const About = () => {
 			</div>
 
 			{/* Socials Container 2 */}
-			<div className="flex flex-col items-center justify-between pt-20 gap-7 h-fit px-sectionpl">
+			<div className="flex flex-col items-center justify-between pt-20 md:flex-row gap-7 md:gap-5 h-fit px-sectionpl">
 				{/* Linkedin */}
 				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-accent rounded-xl">
 					<div className="flex items-center justify-center px-[14px] py-[14px] bg-green-700 rounded-md w-fit h-fit">
@@ -119,7 +119,7 @@ const About = () => {
 			</div>
 
 			{/* Socials Container 2 */}
-			<div className="flex flex-col items-center justify-between pb-40 pt-7 gap-7 h-fit px-sectionpl">
+			<div className="flex flex-col items-center justify-between pb-40 md:flex-row pt-7 md:pt-5 gap-7 md:gap-5 h-fit px-sectionpl">
 				{/* Github */}
 				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-accent rounded-xl">
 					<div className="flex items-center justify-center px-[14px] py-[14px] bg-purple-700 rounded-md w-fit h-fit">
