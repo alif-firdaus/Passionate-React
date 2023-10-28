@@ -17,15 +17,15 @@ import notion from "../Assets/notion.png";
 
 const Tools = () => {
 	return (
-		<div id="tools" className="pt-20 pb-28 h-fit">
+		<div id="tools" className="pt-20 lg:pt-24 pb-28 h-fit">
 			{/* Tools Title */}
-			<h1 className="text-lg text-center text-black dark:text-white px-sectionpl">
+			<h1 className="text-lg lg:text-[20px] text-center text-black dark:text-white px-sectionpl">
 				Tools and Tech-stacks that I use
 			</h1>
 
 			{/* Marquee Row 1 */}
 			<Marquee
-				className="flex flex-shrink-0 w-full overflow-hidden mt-14 h-fit whitespace-nowrap"
+				className="flex flex-shrink-0 w-60 mt-14 lg:mt-20 h-fit whitespace-nowrap"
 				style={{
 					WebkitMaskImage:
 						"linear-gradient(to right, hsla(0 0% 0% / 0), hsla(0 0% 0% / 1) 10%, hsla(0 0% 0% / 1) 90%, hsla(0 0% 0% / 0))",
@@ -61,7 +61,7 @@ const Tools = () => {
 
 			{/* Marquee Row 2 */}
 			<Marquee
-				className="flex flex-shrink-0 w-full mt-5 overflow-hidden h-fit whitespace-nowrap"
+				className="flex flex-shrink-0 mt-5 h-fit whitespace-nowrap"
 				style={{
 					WebkitMaskImage:
 						"linear-gradient(to right, hsla(0 0% 0% / 0), hsla(0 0% 0% / 1) 10%, hsla(0 0% 0% / 1) 90%, hsla(0 0% 0% / 0))",
