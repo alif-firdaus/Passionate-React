@@ -90,7 +90,7 @@ function Navbar() {
 						onClick={handleThemeSwitch}
 					>
 						{theme === "dark" ? (
-							<MoonIcon className="w-[20px] text-primary" />
+							<MoonIcon className="w-[20px] stroke-2 text-primary" />
 						) : (
 							<SunIcon className="w-[24px] text-black " />
 						)}
