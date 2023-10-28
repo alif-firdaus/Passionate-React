@@ -14,7 +14,7 @@ const Hero = () => {
 			</div>
 
 			{/* Hero Headline */}
-			<div className="relative m-auto mt-9 lg:mt-12 lg:px-52 px">
+			<div className="relative m-auto mt-9 lg:mt-12 lg:px-40">
 				<h1 className="text-5xl font-semibold text-center text-black lg:text-[86px] md:text-6xl dark:text-white">
 					Crafting pixels to make{" "}
 					<span className="text-transparent bg-gradient-to-r from-primary via-purple-500 to-pink-500 bg-clip-text">
@@ -25,7 +25,7 @@ const Hero = () => {
 			</div>
 
 			{/* Hero Description */}
-			<div className="relative m-auto mt-8 lg:mt-11 lg:px-[300px]">
+			<div className="relative m-auto mt-8 lg:mt-11 lg:px-72">
 				<p className="text-lg font-normal leading-8 text-center text-black lg:text-[20px] lg:leading-10 dark:font-light dark:text-white">
 					A <span className="text-primary">tech-savvy artist</span>{" "}
 					crafting interfaces for over 4 years, blending the art of
