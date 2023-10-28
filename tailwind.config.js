@@ -29,12 +29,21 @@ module.exports = {
 					"100%": { transform: "translateX(0%)" },
 				},
 			},
+			backgroundImage: {
+				figma: "url('../src/Assets/figma.png')",
+				sketch: "url('../src/Assets/sketch.png')",
+			},
 			padding: {
 				sectionpl: "var(--sectionpl)",
 			},
 			fontFamily: {
 				outfit: ["Outfit", "sans-serif"],
 			},
+		},
+	},
+	variants: {
+		extend: {
+			backgroundImage: ["dark"],
 		},
 	},
 	plugins: [],
