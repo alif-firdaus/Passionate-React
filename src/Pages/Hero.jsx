@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
 	return (
 		<div
-			id="hero"
+			id="home"
 			className="pt-20 pb-20 lg:pb-36 lg:pt-24 h-fit px-sectionpl"
 		>
 			{/* Hero Identity */}
