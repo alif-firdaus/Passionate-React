@@ -11,10 +11,10 @@ const About = () => {
 		<>
 			<div
 				id="about"
-				className="relative w-full h-auto pt-20 px-sectionpl"
+				className="relative w-full h-auto pt-20 lg:pt-44 px-sectionpl lg:px-52"
 			>
 				{/* About Title */}
-				<h1 className="text-5xl font-semibold text-center text-black md:text-6xl dark:text-white">
+				<h1 className="text-5xl font-semibold text-center text-black lg:text-[80px] md:text-6xl dark:text-white">
 					Delivering results that go{" "}
 					<span className="text-transparent bg-gradient-to-r from-primary via-purple-500 to-pink-500 bg-clip-text">
 						beyond expectations
@@ -23,7 +23,7 @@ const About = () => {
 			</div>
 
 			{/* About Decoration */}
-			<div className="mt-20 px-sectionpl">
+			<div className="mt-20 lg:mt-32 px-sectionpl lg:px-52">
 				<div className="relative flex bg-purple-600 pt-14 md:pt-16 h-fit rounded-3xl">
 					<img
 						src={picc}
