@@ -107,7 +107,7 @@ function Navbar() {
 				</div>
 
 				<div className="lg:flex lg:items-center lg:justify-center sm:hidden md:hidden">
-					<button className="text-black text-[15px] font-medium bg-white h-[40px] px-6 pb-[2px] rounded-lg">
+					<button className="text-black text-[15px] font-medium bg-white h-[40px] px-6 pb-[2px] rounded-lg hover:bg-grey duration-300">
 						Connect
 					</button>
 				</div>
