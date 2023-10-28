@@ -37,7 +37,7 @@ module.exports = {
 				sectionpl: "var(--sectionpl)",
 			},
 			fontFamily: {
-				outfit: ["Outfit", "sans-serif"],
+				outfit: ["Outfit"],
 			},
 		},
 	},
