@@ -31,7 +31,7 @@ const Tools = () => {
 	return (
 		<div id="tools" className="pt-20 lg:pt-24 pb-28 h-fit">
 			{/* Tools Title */}
-			<h1 className="text-lg lg:text-[20px] text-center text-black dark:text-white px-sectionpl">
+			<h1 className="text-lg lg:text-[20px] text-center text-black dark:text-white px-sectionpxsm">
 				Tools and Tech-stacks that I use
 			</h1>
 

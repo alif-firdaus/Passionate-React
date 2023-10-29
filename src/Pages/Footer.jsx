@@ -13,7 +13,7 @@ const Footer = () => {
 			className="relative w-full h-auto pb-12 pt-14 bg-gradient-to-br from-purple-800 to-purple-950"
 		>
 			{/* Footer Title */}
-			<div className="px-sectionpl">
+			<div className="px-sectionpxsm">
 				<div className="flex items-center font-semibold cursor-pointer text-[24px] pb-[2px] text-white">
 					Passionate
 				</div>
@@ -110,7 +110,7 @@ const Footer = () => {
 			</div>
 
 			{/* Footer Bottom */}
-			<div className="w-full pt-10 mt-16 border-t-[1px] border-opacity-30 border-slate-50 px-sectionpl">
+			<div className="w-full pt-10 mt-16 border-t-[1px] border-opacity-30 border-slate-50 px-sectionpxsm">
 				<p className="text-[18px] text-white">
 					&#169; Passionate Personal Website
 				</p>

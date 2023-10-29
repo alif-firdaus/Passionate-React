@@ -59,7 +59,7 @@ function Navbar() {
 			<div className="flex items-center justify-between">
 				{/* Navbar Links */}
 				<div
-					className={`fixed lg:flex lg:relative lg:flex-row gap-4 lg:gap-10 pt-6 lg:py-0 w-full lg:items-center lg:justify-between lg:w-fit flex flex-col px-sectionpl lg:px-0 h-screen lg:h-fit dark:bg-darkbg md:dark:bg-darkbg bg-white md:bg-white lg:bg-transparent lg:dark:bg-transparent z-[1] ${
+					className={`fixed lg:flex lg:relative lg:flex-row gap-4 lg:gap-10 pt-6 lg:py-0 w-full lg:items-center lg:justify-between lg:w-fit flex flex-col px-sectionpxsm lg:px-0 h-screen lg:h-fit dark:bg-darkbg md:dark:bg-darkbg bg-white md:bg-white lg:bg-transparent lg:dark:bg-transparent z-[1] ${
 						isOpen ? "top-[73px] lg:top-0" : "-left-full lg:left-0"
 					}`}
 				>

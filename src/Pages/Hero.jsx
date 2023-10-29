@@ -4,7 +4,7 @@ const Hero = () => {
 	return (
 		<div
 			id="home"
-			className="pt-20 pb-20 lg:pb-36 lg:pt-24 h-fit px-sectionpl"
+			className="pt-20 pb-20 lg:pb-36 lg:pt-24 h-fit px-sectionpxsm"
 		>
 			{/* Hero Identity */}
 			<div className="relative px-6 py-2 m-auto align-middle rounded-full dark:bg-darksecondary bg-softblue w-fit h-fit">

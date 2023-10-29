@@ -4,7 +4,7 @@ const Experience = () => {
 	return (
 		<div
 			id="experience"
-			className="relative w-full h-auto pb-36 pt-28 bg-gradient-to-br from-purple-800 to-purple-950 px-sectionpl"
+			className="relative w-full h-auto pb-36 pt-28 bg-gradient-to-br from-purple-800 to-purple-950 px-sectionpxsm"
 		>
 			{/* Experience Title */}
 			<h1 className="text-5xl font-semibold text-center text-white md:text-6xl">

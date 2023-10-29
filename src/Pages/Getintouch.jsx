@@ -4,7 +4,7 @@ const Getintouch = () => {
 	return (
 		<div
 			id="getintouch"
-			className="pt-20 pb-56 h-fit dark:bg-base bg-lightgrey px-sectionpl"
+			className="pt-20 pb-56 h-fit dark:bg-base bg-lightgrey px-sectionpxsm"
 		>
 			{/* Get in Touch Title */}
 			<h1 className="text-5xl font-semibold text-center text-black md:text-6xl dark:text-white">

@@ -5,7 +5,7 @@ import fixit from "../Assets/Images/Fixit App.png";
 
 const Projects = () => {
 	return (
-		<div id="projects" className="pb-44 pt-36 px-sectionpl">
+		<div id="projects" className="pb-44 pt-36 px-sectionpxsm">
 			{/* Projects Title */}
 			<h1 className="text-5xl font-semibold text-center text-black md:text-6xl dark:text-white">
 				Featured projects I{" "}
