@@ -26,7 +26,7 @@ const About = () => {
 				</h1>
 			</div>
 
-			<div className="flex flex-col mt-24 lg:mt-32 px-sectionpxsm lg:px-sectionpxlg">
+			<div className="flex flex-col mt-20 lg:mt-32 px-sectionpxsm lg:px-sectionpxlg">
 				{/* About Decoration */}
 				<div className="relative flex bg-purple-600 pt-14 md:pt-16 h-fit rounded-3xl">
 					<img
@@ -82,7 +82,7 @@ const About = () => {
 			{/* Socials Container 2 */}
 			<div className="flex flex-col items-center justify-between pt-20 md:flex-row gap-7 md:gap-5 h-fit px-sectionpxsm lg:px-sectionpxlg">
 				{/* Linkedin */}
-				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-darksecondary rounded-xl">
+				<div className="w-full px-6 py-5 text-black bg-white shadow-2xl dark:text-white dark:bg-darksecondary rounded-xl shadow-slate-200 dark:shadow-none">
 					<div className="flex items-center justify-center px-[14px] py-[14px] bg-green-700 rounded-md w-fit h-fit">
 						<img src={linkedin} alt="linkedin" className="w-6" />
 					</div>
@@ -102,7 +102,7 @@ const About = () => {
 				</div>
 
 				{/* Dribbble */}
-				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-darksecondary rounded-xl">
+				<div className="w-full px-6 py-5 text-black bg-white shadow-2xl dark:text-white dark:bg-darksecondary rounded-xl shadow-slate-200 dark:shadow-none">
 					<div className="flex items-center justify-center px-[14px] py-[14px] bg-orange-600 rounded-md w-fit h-fit">
 						<img src={dribbble} alt="dribble" className="w-6" />
 					</div>
@@ -125,7 +125,7 @@ const About = () => {
 			{/* Socials Container 2 */}
 			<div className="flex flex-col items-center justify-between pb-40 md:flex-row pt-7 md:pt-6 gap-7 md:gap-5 h-fit px-sectionpxsm lg:px-sectionpxlg">
 				{/* Github */}
-				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-darksecondary rounded-xl">
+				<div className="w-full px-6 py-5 text-black bg-white shadow-2xl dark:text-white dark:bg-darksecondary rounded-xl shadow-slate-200 dark:shadow-none">
 					<div className="flex items-center justify-center px-[14px] py-[14px] bg-purple-700 rounded-md w-fit h-fit">
 						<img src={github} alt="github" className="w-6" />
 					</div>
@@ -145,7 +145,7 @@ const About = () => {
 				</div>
 
 				{/* Behance */}
-				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-darksecondary rounded-xl">
+				<div className="w-full px-6 py-5 text-black bg-white shadow-2xl dark:text-white dark:bg-darksecondary rounded-xl shadow-slate-200 dark:shadow-none">
 					<div className="flex items-center justify-center px-[14px] py-[14px] bg-blue-700 rounded-md w-fit h-fit">
 						<img src={behance} alt="behance" className="w-6" />
 					</div>
