@@ -50,7 +50,7 @@ function Navbar() {
 	};
 
 	return (
-		<nav className="sticky top-0 z-10 flex items-center justify-between py-4 border-b-[1px] backdrop-blur-lg dark:border-slate-50 border-slate-400 dark:border-opacity-10 border-opacity-30">
+		<nav className="sticky top-0 z-10 flex items-center justify-between py-4 border-b-[1px] backdrop-blur-lg dark:border-slate-50 border-slate-400 dark:border-opacity-20 border-opacity-40">
 			{/* Navbar Title */}
 			<div className="flex items-center font-semibold cursor-pointer text-[24px] pb-[2px] dark:text-white text-black ml-[26px] lg:ml-20">
 				Passionate
@@ -81,12 +81,13 @@ function Navbar() {
 					))}
 				</div>
 
-				<div className="hidden lg:flex w-[1px] h-7 bg-slate-50 bg-opacity-20 mx-11"></div>
+				{/* Divider */}
+				<div className="hidden lg:flex w-[1px] h-7 dark:bg-slate-50 bg-slate-400 bg-opacity-50 dark:bg-opacity-20 mx-11"></div>
 
 				{/* Navbar Extra */}
 				<div className="flex justify-between gap-4 lg:gap-6 mr-[26px] lg:mr-20">
 					<div
-						className="flex justify-center border-[1px] w-[40px] h-[40px] rounded-lg dark:border-slate-50 border-slate-400 dark:border-opacity-10 border-opacity-30 lg:dark:bg-darksecondary lg:dark:border-none lg:bg-none lg:border-slate-400 lg:border-opacity-30 items-center cursor-pointer"
+						className="flex justify-center border-[1px] w-[40px] h-[40px] rounded-lg dark:border-slate-50 border-slate-400 dark:border-opacity-10 border-opacity-30 lg:dark:bg-darksecondary lg:dark:border-none lg:bg-none lg:border-slate-400 lg:border-opacity-30 items-center cursor-pointer lg:hover:border-opacity-80 duration-300"
 						onClick={handleThemeSwitch}
 					>
 						{theme === "dark" ? (
