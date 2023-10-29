@@ -15,7 +15,7 @@ const Expertise = () => {
 			{/* Expertise Title */}
 			<h1 className="text-5xl font-semibold text-center text-black md:text-6xl dark:text-white">
 				Skillset that propels my path as{" "}
-				<span className="text-transparent bg-gradient-to-r from-primary via-purple-500 to-pink-500 bg-clip-text">
+				<span className="text-transparent bg-gradient-to-r dark:from-darkprimary from-lightprimary dark:via-purple-500 dark:to-pink-500 via-purple-500 to-pink-500 bg-clip-text">
 					Tech-savvy Artist
 				</span>{" "}
 			</h1>
@@ -23,8 +23,8 @@ const Expertise = () => {
 			{/* Expertise Container 1 */}
 			<div className="flex flex-col items-center justify-between pt-20 md:flex-row gap-7 md:gap-5 h-fit">
 				{/* UI/UX Design */}
-				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-accent rounded-xl">
-					<div className="flex items-center justify-center px-[14px] py-[14px] dark:bg-[#21254c] bg-lightgrey rounded-md w-fit h-fit">
+				<div className="w-full px-6 py-5 text-black bg-white shadow-2xl dark:text-white dark:bg-darksecondary rounded-xl shadow-slate-200 dark:shadow-none">
+					<div className="flex items-center justify-center px-[14px] py-[14px] bg-purple-700 rounded-md w-fit h-fit">
 						<img
 							src={uiuxdesign}
 							alt="uiuxdesign"
@@ -41,8 +41,8 @@ const Expertise = () => {
 				</div>
 
 				{/* Project Planning */}
-				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-accent rounded-xl">
-					<div className="flex items-center justify-center px-[14px] py-[14px] dark:bg-[#21254c] bg-lightgrey rounded-md w-fit h-fit">
+				<div className="w-full px-6 py-5 text-black bg-white shadow-2xl dark:text-white dark:bg-darksecondary rounded-xl shadow-slate-200 dark:shadow-none">
+					<div className="flex items-center justify-center px-[14px] py-[14px] bg-orange-600 rounded-md w-fit h-fit">
 						<img src={planning} alt="planning" className="w-6" />
 					</div>
 					<h1 className="text-[23px] mt-6 font-semibold">
@@ -58,8 +58,8 @@ const Expertise = () => {
 			{/* Expertise Container 2 */}
 			<div className="flex flex-col items-center justify-between md:flex-row pt-7 md:pt-6 gap-7 md:gap-5 h-fit">
 				{/* Prototyping */}
-				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-accent rounded-xl">
-					<div className="flex items-center justify-center px-[14px] py-[14px] dark:bg-[#21254c] bg-lightgrey rounded-md w-fit h-fit">
+				<div className="w-full px-6 py-5 text-black bg-white shadow-2xl dark:text-white dark:bg-darksecondary rounded-xl shadow-slate-200 dark:shadow-none">
+					<div className="flex items-center justify-center px-[14px] py-[14px] bg-blue-700 rounded-md w-fit h-fit">
 						<img
 							src={prototyping}
 							alt="prototyping"
@@ -76,8 +76,8 @@ const Expertise = () => {
 				</div>
 
 				{/* Front-end Development */}
-				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-accent rounded-xl">
-					<div className="flex items-center justify-center px-[14px] py-[14px] dark:bg-[#21254c] bg-lightgrey rounded-md w-fit h-fit">
+				<div className="w-full px-6 py-5 text-black bg-white shadow-2xl dark:text-white dark:bg-darksecondary rounded-xl shadow-slate-200 dark:shadow-none">
+					<div className="flex items-center justify-center px-[14px] py-[14px] bg-green-700 rounded-md w-fit h-fit">
 						<img src={frontend} alt="frontend" className="w-6" />
 					</div>
 					<h1 className="text-[23px] mt-6 font-semibold">
