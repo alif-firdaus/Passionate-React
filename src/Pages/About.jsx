@@ -26,7 +26,7 @@ const About = () => {
 				</h1>
 			</div>
 
-			<div className="flex flex-col mt-20 lg:mt-32 px-sectionpxsm lg:px-sectionpxlg">
+			<div className="flex flex-col mt-24 lg:mt-32 px-sectionpxsm lg:px-sectionpxlg">
 				{/* About Decoration */}
 				<div className="relative flex bg-purple-600 pt-14 md:pt-16 h-fit rounded-3xl">
 					<img
@@ -62,12 +62,12 @@ const About = () => {
 				</div>
 
 				{/* About Sub Title */}
-				<h1 className="text-[34px] mt-16 font-semibold text-center text-black lg:text-[80px] md:text-6xl dark:text-white">
-					Short description about me
+				<h1 className="text-[38px] leading-snug mt-16 font-semibold text-center text-black lg:text-[80px] md:text-6xl dark:text-white">
+					Elevating products to perfection
 				</h1>
 
 				{/* About Description */}
-				<div className="mt-9 px-sectionpxsm lg:px-80">
+				<div className="mt-9 lg:px-80">
 					<p className="z-40 text-lg font-normal lg:text-[20px] lg:leading-10 leading-8 text-center text-black dark:font-light dark:text-white">
 						I am Alif Firdaus, a skilled Product Designer and
 						Front-end Developer renowned for exceeding expectations
