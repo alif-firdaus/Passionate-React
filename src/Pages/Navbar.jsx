@@ -59,7 +59,7 @@ function Navbar() {
 			<div className="flex items-center justify-between">
 				{/* Navbar Links */}
 				<div
-					className={`fixed lg:flex lg:relative lg:flex-row gap-4 lg:gap-10 pt-6 lg:py-0 w-full lg:items-center lg:justify-between lg:w-fit flex flex-col px-sectionpl lg:px-0 h-screen lg:h-fit dark:bg-base md:dark:bg-base bg-white md:bg-white lg:bg-transparent lg:dark:bg-transparent z-[1] ${
+					className={`fixed lg:flex lg:relative lg:flex-row gap-4 lg:gap-10 pt-6 lg:py-0 w-full lg:items-center lg:justify-between lg:w-fit flex flex-col px-sectionpl lg:px-0 h-screen lg:h-fit dark:bg-darkbg md:dark:bg-darkbg bg-white md:bg-white lg:bg-transparent lg:dark:bg-transparent z-[1] ${
 						isOpen ? "top-[73px] lg:top-0" : "-left-full lg:left-0"
 					}`}
 				>
@@ -69,7 +69,7 @@ function Navbar() {
 							key={index}
 						>
 							<a
-								className="flex w-full lg:w-fit pb-5 lg:py-0 items-center text-lg lg:text-[15px] font-light lg:font-normal dark:text-white text-black dark:border-slate-50 border-slate-400 dark:border-opacity-10 border-opacity-20 border-b-[1px] lg:border-none lg:hover:text-grey duration-300"
+								className="flex w-full lg:w-fit pb-5 lg:py-0 items-center text-lg lg:text-[15px] font-light lg:font-normal dark:text-white text-grey dark:border-slate-50 border-slate-400 dark:border-opacity-10 border-opacity-20 border-b-[1px] lg:border-none lg:dark:hover:text-softgrey lg:hover:text-black duration-300"
 								href={option.href}
 								onClick={() => {
 									setIsOpen(!isOpen);
@@ -86,11 +86,11 @@ function Navbar() {
 				{/* Navbar Extra */}
 				<div className="flex justify-between gap-4 lg:gap-6 mr-[26px] lg:mr-20">
 					<div
-						className="flex justify-center border-[1px] w-[40px] h-[40px] rounded-lg dark:border-slate-50 border-slate-400 dark:border-opacity-10 border-opacity-30 lg:dark:bg-accent lg:dark:border-none lg:bg-none lg:border-slate-400 lg:border-opacity-30 items-center cursor-pointer"
+						className="flex justify-center border-[1px] w-[40px] h-[40px] rounded-lg dark:border-slate-50 border-slate-400 dark:border-opacity-10 border-opacity-30 lg:dark:bg-darksecondary lg:dark:border-none lg:bg-none lg:border-slate-400 lg:border-opacity-30 items-center cursor-pointer"
 						onClick={handleThemeSwitch}
 					>
 						{theme === "dark" ? (
-							<MoonIcon className="w-[20px] stroke-2 text-primary" />
+							<MoonIcon className="w-[20px] stroke-2 text-darkprimary" />
 						) : (
 							<SunIcon className="w-[24px] text-black " />
 						)}
@@ -110,7 +110,7 @@ function Navbar() {
 					</div>
 
 					<div className="items-center justify-center hidden lg:flex">
-						<button className="dark:text-black text-white text-[15px] font-medium dark:bg-white bg-black h-[40px] px-6 pb-[2px] rounded-lg hover:bg-grey duration-300">
+						<button className="dark:text-black text-white text-[15px] font-medium dark:bg-white bg-black h-[40px] px-6 pb-[2px] rounded-lg dark:hover:bg-softgrey hover:bg-grey duration-300">
 							Connect
 						</button>
 					</div>
