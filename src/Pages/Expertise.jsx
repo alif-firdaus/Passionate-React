@@ -1,8 +1,10 @@
 import React from "react";
-import uiuxdesign from "../Assets/uiuxdesign.png";
-import planning from "../Assets/planning.png";
-import prototyping from "../Assets/prototyping.png";
-import frontend from "../Assets/frontend.png";
+
+// Import Icons
+import uiuxdesign from "../Assets/Icons/uiuxdesign.png";
+import planning from "../Assets/Icons/planning.png";
+import prototyping from "../Assets/Icons/prototyping.png";
+import frontend from "../Assets/Icons/frontend.png";
 
 const Expertise = () => {
 	return (
