@@ -16,7 +16,7 @@ import Footer from "./Pages/Footer";
 
 function App() {
 	return (
-		<div className="bg-lightgrey App dark:bg-base">
+		<div className="bg-lightbg App dark:bg-darkbg">
 			<Navbar />
 			<Hero />
 			<Tools />
