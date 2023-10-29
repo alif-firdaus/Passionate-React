@@ -3,17 +3,29 @@ import React, { useState, useEffect } from "react";
 // Marquee
 import Marquee from "react-fast-marquee";
 
-// Marquee Col 1
-import figma from "../Assets/figma.png";
-import adobexd from "../Assets/adobexd.png";
-import sketch from "../Assets/sketch.png";
-import studio from "../Assets/studio.png";
+// Marquee Col 1 Dark
+import figma from "../Assets/Icons/figma.svg";
+import adobexd from "../Assets/Icons/adobexd.svg";
+import sketch from "../Assets/Icons/sketch.svg";
+import studio from "../Assets/Icons/studio.svg";
 
-// Marquee Col 2
-import react from "..//Assets/react.png";
-import tailwind from "../Assets/tailwind.png";
-import miro from "../Assets/miro.png";
-import notion from "../Assets/notion.png";
+// Marquee Col 1 Light
+import figmabl from "../Assets/Icons/figma-black.svg";
+import adobexdbl from "../Assets/Icons/adobexd-black.svg";
+import sketchbl from "../Assets/Icons/sketch-black.svg";
+import studiobl from "../Assets/Icons/studio-black.svg";
+
+// Marquee Col 2 Dark
+import react from "../Assets/Icons/react.svg";
+import tailwind from "../Assets/Icons/tailwind.svg";
+import miro from "../Assets/Icons/miro.svg";
+import notion from "../Assets/Icons/notion.svg";
+
+// Marquee Col 2 Light
+import reactbl from "../Assets/Icons/react-black.svg";
+import tailwindbl from "../Assets/Icons/tailwind-black.svg";
+import mirobl from "../Assets/Icons/miro-black.svg";
+import notionbl from "../Assets/Icons/notion-black.svg";
 
 const Tools = () => {
 	return (
