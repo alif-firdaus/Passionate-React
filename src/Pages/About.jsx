@@ -15,7 +15,7 @@ const About = () => {
 		<>
 			<div
 				id="about"
-				className="relative w-full h-auto pt-20 lg:pt-44 px-sectionpxsm lg:px-52"
+				className="relative w-full h-auto pt-20 lg:pt-44 px-sectionpxsm lg:px-sectionpxlg"
 			>
 				{/* About Title */}
 				<h1 className="text-5xl font-semibold text-center text-black lg:text-[80px] md:text-6xl dark:text-white">
@@ -26,8 +26,8 @@ const About = () => {
 				</h1>
 			</div>
 
-			{/* About Decoration */}
-			<div className="mt-20 lg:mt-32 px-sectionpxsm lg:px-52">
+			<div className="flex flex-col mt-20 lg:mt-32 px-sectionpxsm lg:px-sectionpxlg">
+				{/* About Decoration */}
 				<div className="relative flex bg-purple-600 pt-14 md:pt-16 h-fit rounded-3xl">
 					<img
 						src={pic}
@@ -60,27 +60,27 @@ const About = () => {
 						</div>
 					</div>
 				</div>
-			</div>
 
-			{/* About Line */}
-			<div className="flex justify-center mt-20 px-sectionpxsm">
-				<div className="w-20 h-1 bg-black rounded-full dark:bg-white"></div>
-			</div>
+				{/* About Sub Title */}
+				<h1 className="text-[34px] mt-16 font-semibold text-center text-black lg:text-[80px] md:text-6xl dark:text-white">
+					Short description about me
+				</h1>
 
-			{/* About Description */}
-			<div className="px-sectionpxsm">
-				<p className="z-40 mt-16 text-lg font-normal leading-8 text-center text-black dark:font-light dark:text-white">
-					I am Alif Firdaus, a skilled Product Designer and Front-end
-					Developer renowned for exceeding expectations with my
-					meticulous attention to detail and in-depth understanding of
-					the harmony between Product Interface and User Experience.
-					With my expertise, I am confident to bring your ideas to
-					life!
-				</p>
+				{/* About Description */}
+				<div className="mt-9 px-sectionpxsm lg:px-80">
+					<p className="z-40 text-lg font-normal lg:text-[20px] lg:leading-10 leading-8 text-center text-black dark:font-light dark:text-white">
+						I am Alif Firdaus, a skilled Product Designer and
+						Front-end Developer renowned for exceeding expectations
+						with my meticulous attention to detail and in-depth
+						understanding of the harmony between Product Interface
+						and User Experience. With my expertise, I am confident
+						to bring your ideas to life!
+					</p>
+				</div>
 			</div>
 
 			{/* Socials Container 2 */}
-			<div className="flex flex-col items-center justify-between pt-20 md:flex-row gap-7 md:gap-5 h-fit px-sectionpxsm">
+			<div className="flex flex-col items-center justify-between pt-20 md:flex-row gap-7 md:gap-5 h-fit px-sectionpxsm lg:px-sectionpxlg">
 				{/* Linkedin */}
 				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-darksecondary rounded-xl">
 					<div className="flex items-center justify-center px-[14px] py-[14px] bg-green-700 rounded-md w-fit h-fit">
@@ -123,7 +123,7 @@ const About = () => {
 			</div>
 
 			{/* Socials Container 2 */}
-			<div className="flex flex-col items-center justify-between pb-40 md:flex-row pt-7 md:pt-6 gap-7 md:gap-5 h-fit px-sectionpxsm">
+			<div className="flex flex-col items-center justify-between pb-40 md:flex-row pt-7 md:pt-6 gap-7 md:gap-5 h-fit px-sectionpxsm lg:px-sectionpxlg">
 				{/* Github */}
 				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-darksecondary rounded-xl">
 					<div className="flex items-center justify-center px-[14px] py-[14px] bg-purple-700 rounded-md w-fit h-fit">
