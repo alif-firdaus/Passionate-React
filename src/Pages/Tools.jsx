@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 // Marquee
 import Marquee from "react-fast-marquee";
