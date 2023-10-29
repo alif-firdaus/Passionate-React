@@ -1,8 +1,10 @@
 import React from "react";
-import linkedin from "../Assets/linkedin.png";
-import dribbble from "../Assets/dribbble.png";
-import github from "../Assets/github.png";
-import behance from "../Assets/behance.png";
+
+// Import Icons
+import linkedin from "../Assets/Icons/linkedin.png";
+import dribbble from "../Assets/Icons/dribbble.png";
+import github from "../Assets/Icons/github.png";
+import behance from "../Assets/Icons/behance.png";
 
 const Footer = () => {
 	return (
