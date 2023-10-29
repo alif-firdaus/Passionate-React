@@ -42,7 +42,8 @@ module.exports = {
 				sketch: "url('../src/Assets/sketch.png')",
 			},
 			padding: {
-				sectionpl: "var(--sectionpl)",
+				sectionpxsm: "var(--sectionpxsm)",
+				sectionpxlg: "var(--sectionpxlg)",
 			},
 			fontFamily: {
 				outfit: ["Outfit"],

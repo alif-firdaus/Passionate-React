@@ -24,8 +24,11 @@
 	--softgrey: #dfdfdf;
 	--white: #ffffff;
 
-	/* Padding */
-	--sectionpl: 26px;
+	/* Padding X sm & md */
+	--sectionpxsm: 26px;
+
+	/* Padding X lg */
+	--sectionpxlg: 208px;
 }
 
 * {
