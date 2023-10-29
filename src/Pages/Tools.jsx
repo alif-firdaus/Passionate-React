@@ -45,7 +45,7 @@ const Tools = () => {
 						"linear-gradient(to right, hsla(0 0% 0% / 0), hsla(0 0% 0% / 1) 10%, hsla(0 0% 0% / 1) 90%, hsla(0 0% 0% / 0))",
 				}}
 			>
-				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey items-center h-[60px]">
+				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-darksecondary bg-softgrey items-center h-[60px]">
 					<img
 						src={figma}
 						alt="figma"
@@ -57,7 +57,7 @@ const Tools = () => {
 						className="block h-6 dark:hidden "
 					/>
 				</div>
-				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey items-center h-[60px]">
+				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-darksecondary bg-softgrey items-center h-[60px]">
 					<img
 						src={adobexd}
 						alt="adobexd"
@@ -69,7 +69,7 @@ const Tools = () => {
 						className="block h-[27px] dark:hidden "
 					/>
 				</div>
-				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey items-center h-[60px]">
+				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-darksecondary bg-softgrey items-center h-[60px]">
 					<img
 						src={sketch}
 						alt="sketch"
@@ -81,7 +81,7 @@ const Tools = () => {
 						className="block h-6 dark:hidden "
 					/>
 				</div>
-				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey items-center h-[60px]">
+				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-darksecondary bg-softgrey items-center h-[60px]">
 					<img
 						src={studio}
 						alt="studio"
@@ -93,7 +93,7 @@ const Tools = () => {
 						className="block h-6 dark:hidden "
 					/>
 				</div>
-				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey items-center h-[60px]">
+				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-darksecondary bg-softgrey items-center h-[60px]">
 					<img
 						src={figma}
 						alt="figma"
@@ -105,7 +105,7 @@ const Tools = () => {
 						className="block h-6 dark:hidden "
 					/>
 				</div>
-				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey items-center h-[60px]">
+				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-darksecondary bg-softgrey items-center h-[60px]">
 					<img
 						src={adobexd}
 						alt="adobexd"
@@ -117,7 +117,7 @@ const Tools = () => {
 						className="block h-[27px] dark:hidden "
 					/>
 				</div>
-				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey items-center h-[60px]">
+				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-darksecondary bg-softgrey items-center h-[60px]">
 					<img
 						src={sketch}
 						alt="sketch"
@@ -129,7 +129,7 @@ const Tools = () => {
 						className="block h-6 dark:hidden "
 					/>
 				</div>
-				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey items-center h-[60px]">
+				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-darksecondary bg-softgrey items-center h-[60px]">
 					<img
 						src={studio}
 						alt="studio"
@@ -153,7 +153,7 @@ const Tools = () => {
 						"linear-gradient(to right, hsla(0 0% 0% / 0), hsla(0 0% 0% / 1) 10%, hsla(0 0% 0% / 1) 90%, hsla(0 0% 0% / 0))",
 				}}
 			>
-				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey items-center h-[60px]">
+				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-darksecondary bg-softgrey items-center h-[60px]">
 					<img
 						src={react}
 						alt="react"
@@ -165,7 +165,7 @@ const Tools = () => {
 						className="block h-6 dark:hidden "
 					/>
 				</div>
-				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey items-center h-[60px]">
+				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-darksecondary bg-softgrey items-center h-[60px]">
 					<img
 						src={tailwind}
 						alt="tailwind"
@@ -177,7 +177,7 @@ const Tools = () => {
 						className="block h-[20px] dark:hidden "
 					/>
 				</div>
-				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey items-center h-[60px]">
+				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-darksecondary bg-softgrey items-center h-[60px]">
 					<img
 						src={miro}
 						alt="miro"
@@ -189,7 +189,7 @@ const Tools = () => {
 						className="block h-6 dark:hidden "
 					/>
 				</div>
-				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey items-center h-[60px]">
+				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-darksecondary bg-softgrey items-center h-[60px]">
 					<img
 						src={notion}
 						alt="notion"
@@ -201,7 +201,7 @@ const Tools = () => {
 						className="block h-6 dark:hidden "
 					/>
 				</div>
-				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey items-center h-[60px]">
+				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-darksecondary bg-softgrey items-center h-[60px]">
 					<img
 						src={react}
 						alt="react"
@@ -213,7 +213,7 @@ const Tools = () => {
 						className="block h-6 dark:hidden "
 					/>
 				</div>
-				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey items-center h-[60px]">
+				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-darksecondary bg-softgrey items-center h-[60px]">
 					<img
 						src={tailwind}
 						alt="tailwind"
@@ -225,7 +225,7 @@ const Tools = () => {
 						className="block h-[20px] dark:hidden "
 					/>
 				</div>
-				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey items-center h-[60px]">
+				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-darksecondary bg-softgrey items-center h-[60px]">
 					<img
 						src={miro}
 						alt="miro"
@@ -237,7 +237,7 @@ const Tools = () => {
 						className="block h-6 dark:hidden "
 					/>
 				</div>
-				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey items-center h-[60px]">
+				<div className="flex justify-center mx-2 w-[190px] rounded-xl dark:bg-darksecondary bg-softgrey items-center h-[60px]">
 					<img
 						src={notion}
 						alt="notion"
