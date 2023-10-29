@@ -50,7 +50,7 @@ function Navbar() {
 	};
 
 	return (
-		<nav className="sticky top-0 z-10 flex items-center justify-between py-4 border-b-[1px] backdrop-blur-lg dark:border-slate-50 border-slate-400 dark:border-opacity-10 border-opacity-20">
+		<nav className="sticky top-0 z-10 flex items-center justify-between py-4 border-b-[1px] backdrop-blur-lg dark:border-slate-50 border-slate-400 dark:border-opacity-10 border-opacity-30">
 			{/* Navbar Title */}
 			<div className="flex items-center font-semibold cursor-pointer text-[24px] pb-[2px] dark:text-white text-black ml-[26px] lg:ml-20">
 				Passionate
@@ -86,7 +86,7 @@ function Navbar() {
 				{/* Navbar Extra */}
 				<div className="flex justify-between gap-4 lg:gap-6 mr-[26px] lg:mr-20">
 					<div
-						className="flex justify-center border-[1px] w-[40px] h-[40px] rounded-lg dark:border-slate-50 border-slate-400 dark:border-opacity-10 border-opacity-20 lg:bg-accent lg:border-none items-center cursor-pointer"
+						className="flex justify-center border-[1px] w-[40px] h-[40px] rounded-lg dark:border-slate-50 border-slate-400 dark:border-opacity-10 border-opacity-30 lg:dark:bg-accent lg:dark:border-none lg:bg-none lg:border-slate-400 lg:border-opacity-30 items-center cursor-pointer"
 						onClick={handleThemeSwitch}
 					>
 						{theme === "dark" ? (
@@ -110,7 +110,7 @@ function Navbar() {
 					</div>
 
 					<div className="items-center justify-center hidden lg:flex">
-						<button className="text-black text-[15px] font-medium bg-white h-[40px] px-6 pb-[2px] rounded-lg hover:bg-grey duration-300">
+						<button className="dark:text-black text-white text-[15px] font-medium dark:bg-white bg-black h-[40px] px-6 pb-[2px] rounded-lg hover:bg-grey duration-300">
 							Connect
 						</button>
 					</div>
