@@ -20,7 +20,7 @@ const About = () => {
 				{/* About Title */}
 				<h1 className="text-5xl font-semibold text-center text-black lg:text-[80px] md:text-6xl dark:text-white">
 					Delivering results that go{" "}
-					<span className="text-transparent bg-gradient-to-r from-primary via-purple-500 to-pink-500 bg-clip-text">
+					<span className="text-transparent bg-gradient-to-r from-darkprimary via-purple-500 to-pink-500 bg-clip-text">
 						beyond expectations
 					</span>{" "}
 				</h1>
@@ -82,7 +82,7 @@ const About = () => {
 			{/* Socials Container 2 */}
 			<div className="flex flex-col items-center justify-between pt-20 md:flex-row gap-7 md:gap-5 h-fit px-sectionpl">
 				{/* Linkedin */}
-				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-accent rounded-xl">
+				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-darksecondary rounded-xl">
 					<div className="flex items-center justify-center px-[14px] py-[14px] bg-green-700 rounded-md w-fit h-fit">
 						<img src={linkedin} alt="linkedin" className="w-6" />
 					</div>
@@ -95,14 +95,14 @@ const About = () => {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<button className="px-6 pt-3 pb-[14px] dark:bg-[#21254c] bg-lightgrey mt-8 font-medium rounded-lg text-[16px] w-fit h-fit">
+						<button className="px-6 pt-3 pb-[14px] dark:bg-darktertiary bg-lightbg mt-8 font-medium rounded-lg text-[16px] w-fit h-fit">
 							Check out
 						</button>
 					</a>
 				</div>
 
 				{/* Dribbble */}
-				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-accent rounded-xl">
+				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-darksecondary rounded-xl">
 					<div className="flex items-center justify-center px-[14px] py-[14px] bg-orange-600 rounded-md w-fit h-fit">
 						<img src={dribbble} alt="dribble" className="w-6" />
 					</div>
@@ -115,7 +115,7 @@ const About = () => {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<button className="px-6 pt-3 pb-[14px] dark:bg-[#21254c] bg-lightgrey mt-8 font-medium rounded-lg text-[16px] w-fit h-fit">
+						<button className="px-6 pt-3 pb-[14px] dark:bg-darktertiary bg-lightbg mt-8 font-medium rounded-lg text-[16px] w-fit h-fit">
 							Check out
 						</button>
 					</a>
@@ -125,7 +125,7 @@ const About = () => {
 			{/* Socials Container 2 */}
 			<div className="flex flex-col items-center justify-between pb-40 md:flex-row pt-7 md:pt-6 gap-7 md:gap-5 h-fit px-sectionpl">
 				{/* Github */}
-				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-accent rounded-xl">
+				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-darksecondary rounded-xl">
 					<div className="flex items-center justify-center px-[14px] py-[14px] bg-purple-700 rounded-md w-fit h-fit">
 						<img src={github} alt="github" className="w-6" />
 					</div>
@@ -138,14 +138,14 @@ const About = () => {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<button className="px-6 pt-3 pb-[14px] dark:bg-[#21254c] bg-lightgrey mt-8 font-medium rounded-lg text-[16px] w-fit h-fit">
+						<button className="px-6 pt-3 pb-[14px] dark:bg-darktertiary bg-lightbg mt-8 font-medium rounded-lg text-[16px] w-fit h-fit">
 							Check out
 						</button>
 					</a>
 				</div>
 
 				{/* Behance */}
-				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-accent rounded-xl">
+				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-darksecondary rounded-xl">
 					<div className="flex items-center justify-center px-[14px] py-[14px] bg-blue-700 rounded-md w-fit h-fit">
 						<img src={behance} alt="behance" className="w-6" />
 					</div>
@@ -158,7 +158,7 @@ const About = () => {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<button className="px-6 pt-3 pb-[14px] dark:bg-[#21254c] bg-lightgrey mt-8 font-medium rounded-lg text-[16px] w-fit h-fit">
+						<button className="px-6 pt-3 pb-[14px] dark:bg-darktertiary bg-lightbg mt-8 font-medium rounded-lg text-[16px] w-fit h-fit">
 							Check out
 						</button>
 					</a>
