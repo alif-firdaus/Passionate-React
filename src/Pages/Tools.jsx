@@ -35,7 +35,7 @@ const Tools = () => {
 				Tools and Tech-stacks that I use
 			</h1>
 
-			{/* Marquee Row 1 */}
+			{/* Marquee Col 1 */}
 			<Marquee
 				className="flex flex-shrink-0 w-60 mt-14 lg:mt-20 h-fit whitespace-nowrap"
 				style={{
@@ -46,32 +46,104 @@ const Tools = () => {
 				}}
 			>
 				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
-					<img src={figma} alt="figma" className="h-6 " />
+					<img
+						src={figma}
+						alt="figma"
+						className="hidden h-6 dark:block "
+					/>
+					<img
+						src={figmabl}
+						alt="figmabl"
+						className="block h-6 dark:hidden "
+					/>
 				</div>
 				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
-					<img src={adobexd} alt="adobexd" className="h-6 " />
+					<img
+						src={adobexd}
+						alt="adobexd"
+						className="hidden h-6 dark:block "
+					/>
+					<img
+						src={adobexdbl}
+						alt="adobexdbl"
+						className="block h-6 dark:hidden "
+					/>
 				</div>
 				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
-					<img src={sketch} alt="sketch" className="h-6 " />
+					<img
+						src={sketch}
+						alt="sketch"
+						className="hidden h-6 dark:block "
+					/>
+					<img
+						src={sketchbl}
+						alt="sketchbl"
+						className="block h-6 dark:hidden "
+					/>
 				</div>
 				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
-					<img src={studio} alt="studio" className="h-6 " />
+					<img
+						src={studio}
+						alt="studio"
+						className="hidden h-6 dark:block "
+					/>
+					<img
+						src={studiobl}
+						alt="studiobl"
+						className="block h-6 dark:hidden "
+					/>
 				</div>
 				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
-					<img src={figma} alt="figma" className="h-6 " />
+					<img
+						src={figma}
+						alt="figma"
+						className="hidden h-6 dark:block "
+					/>
+					<img
+						src={figmabl}
+						alt="figmabl"
+						className="block h-6 dark:hidden "
+					/>
 				</div>
 				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
-					<img src={adobexd} alt="adobexd" className="h-7 " />
+					<img
+						src={adobexd}
+						alt="adobexd"
+						className="hidden h-6 dark:block "
+					/>
+					<img
+						src={adobexdbl}
+						alt="adobexdbl"
+						className="block h-6 dark:hidden "
+					/>
 				</div>
 				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
-					<img src={sketch} alt="sketch" className="h-6 " />
+					<img
+						src={sketch}
+						alt="sketch"
+						className="hidden h-6 dark:block "
+					/>
+					<img
+						src={sketchbl}
+						alt="sketchbl"
+						className="block h-6 dark:hidden "
+					/>
 				</div>
 				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
-					<img src={studio} alt="studio" className="h-6 " />
+					<img
+						src={studio}
+						alt="studio"
+						className="hidden h-6 dark:block "
+					/>
+					<img
+						src={studiobl}
+						alt="studiobl"
+						className="block h-6 dark:hidden "
+					/>
 				</div>
 			</Marquee>
 
-			{/* Marquee Row 2 */}
+			{/* Marquee Col 2 */}
 			<Marquee
 				className="flex flex-shrink-0 mt-5 h-fit whitespace-nowrap"
 				style={{
@@ -82,28 +154,100 @@ const Tools = () => {
 				}}
 			>
 				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
-					<img src={react} alt="react" className="h-6 " />
+					<img
+						src={react}
+						alt="react"
+						className="hidden h-6 dark:block "
+					/>
+					<img
+						src={reactbl}
+						alt="reactbl"
+						className="block h-6 dark:hidden "
+					/>
 				</div>
 				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
-					<img src={tailwind} alt="tailwind" className="h-5 " />
+					<img
+						src={tailwind}
+						alt="tailwind"
+						className="hidden h-5 dark:block "
+					/>
+					<img
+						src={tailwindbl}
+						alt="tailwindbl"
+						className="block h-5 dark:hidden "
+					/>
 				</div>
 				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
-					<img src={miro} alt="miro" className="h-6 " />
+					<img
+						src={miro}
+						alt="miro"
+						className="hidden h-6 dark:block "
+					/>
+					<img
+						src={mirobl}
+						alt="miro"
+						className="block h-6 dark:hidden "
+					/>
 				</div>
 				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
-					<img src={notion} alt="notion" className="h-6 " />
+					<img
+						src={notion}
+						alt="notion"
+						className="hidden h-6 dark:block "
+					/>
+					<img
+						src={notionbl}
+						alt="notionbl"
+						className="block h-6 dark:hidden "
+					/>
 				</div>
 				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
-					<img src={react} alt="react" className="h-6 " />
+					<img
+						src={react}
+						alt="react"
+						className="hidden h-6 dark:block "
+					/>
+					<img
+						src={reactbl}
+						alt="reactbl"
+						className="block h-6 dark:hidden "
+					/>
 				</div>
 				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
-					<img src={tailwind} alt="tailwind" className="h-5 " />
+					<img
+						src={tailwind}
+						alt="tailwind"
+						className="hidden h-5 dark:block "
+					/>
+					<img
+						src={tailwindbl}
+						alt="tailwindbl"
+						className="block h-5 dark:hidden "
+					/>
 				</div>
 				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
-					<img src={miro} alt="miro" className="h-6 " />
+					<img
+						src={miro}
+						alt="miro"
+						className="hidden h-6 dark:block "
+					/>
+					<img
+						src={mirobl}
+						alt="miro"
+						className="block h-6 dark:hidden "
+					/>
 				</div>
 				<div className="flex justify-center py-[18px] mx-2 w-[190px] rounded-xl dark:bg-accent bg-grey h-fit">
-					<img src={notion} alt="notion" className="h-6 " />
+					<img
+						src={notion}
+						alt="notion"
+						className="hidden h-6 dark:block "
+					/>
+					<img
+						src={notionbl}
+						alt="notionbl"
+						className="block h-6 dark:hidden "
+					/>
 				</div>
 			</Marquee>
 		</div>
