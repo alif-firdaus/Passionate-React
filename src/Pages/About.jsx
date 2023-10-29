@@ -1,10 +1,14 @@
 import React from "react";
-import picc from "../Assets/picc.png";
-import imessage from "../Assets/imessage.png";
-import linkedin from "../Assets/linkedin.png";
-import dribbble from "../Assets/dribbble.png";
-import github from "../Assets/github.png";
-import behance from "../Assets/behance.png";
+
+// Import Images
+import pic from "../Assets/Images/pic.png";
+
+// Import Icons
+import imessage from "../Assets/Icons/imessage.png";
+import linkedin from "../Assets/Icons/linkedin.png";
+import dribbble from "../Assets/Icons/dribbble.png";
+import github from "../Assets/Icons/github.png";
+import behance from "../Assets/Icons/behance.png";
 
 const About = () => {
 	return (
@@ -26,8 +30,8 @@ const About = () => {
 			<div className="mt-20 lg:mt-32 px-sectionpl lg:px-52">
 				<div className="relative flex bg-purple-600 pt-14 md:pt-16 h-fit rounded-3xl">
 					<img
-						src={picc}
-						alt="picc"
+						src={pic}
+						alt="pic"
 						className="relative object-contain w-9/12 h-full origin-bottom-left md:w-6/12"
 					/>
 					<div className="absolute bottom-0 w-full px-6 py-6 md:hidden bg-none h-fit">
