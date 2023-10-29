@@ -6,14 +6,22 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
+				// Dark Mode Color Palette //
+				darkbg: "var(--darkbg)",
+				darkprimary: "var(--darkprimary)",
+				darksecondary: "var(--darksecondary)",
+				darktertiary: "var(--darktertiary)",
+
+				// Light Mode Color Palette //
+				lightbg: "var(--lightbg)",
+				lightprimary: "var(--lightprimary)",
+
+				// General Color Palette //
+				softblue: "var(--softblue)",
 				black: "var(--black)",
 				grey: "var(--grey)",
-				lightgrey: "var(--lightgrey)",
-				lightblue: "var(--lightblue)",
+				softgrey: "var(--softgrey)",
 				white: "var(--white)",
-				base: "var(--base)",
-				accent: "var(--accent)",
-				primary: "var(--primary)",
 			},
 			animation: {
 				marquee: "marquee 30s linear infinite",

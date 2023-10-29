@@ -595,12 +595,21 @@ video {
 
 :root {
 	/* Color Palette */
+
+	/* Dark Mode Color Palette */
+	--darkbg: #0d1026;
+	--darkprimary: #2098fa;
+	--darksecondary: #151938;
+	--darktertiary: #292f60;
+
+	/* Light Mode Color Palette */
+	--lightbg: #f3f3f3;
+	--lightprimary: #0047ff;
+
+	/* General Color Palete */
+	--softblue: #e1ecf4;
 	--black: #272727;
-	--grey: #dfdfdf;
-	--lightgrey: #f3f3f3;
-	--lightblue: #e1ecf4;
+	--grey: #4e4e4e;
+	--softgrey: #dfdfdf;
 	--white: #ffffff;
-	--base: #0d1026;
-	--accent: #1a204d;
-	--primary: #2091fa;
 }
