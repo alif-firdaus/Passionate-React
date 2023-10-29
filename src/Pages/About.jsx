@@ -26,15 +26,15 @@ const About = () => {
 				</h1>
 			</div>
 
-			<div className="flex flex-col mt-20 lg:mt-32 px-sectionpxsm lg:px-sectionpxlg">
+			<div className="flex flex-col mt-20 md:lg:flex-row md:lg:justify-between lg:items-center md:lg:gap-28 lg:mt-44 px-sectionpxsm lg:px-sectionpxlg">
 				{/* About Decoration */}
-				<div className="relative flex bg-purple-600 pt-14 md:pt-16 h-fit rounded-3xl">
+				<div className="relative flex bg-purple-600 pt-14 md:pt-16 h-fit lg:h-fit rounded-3xl lg:w-full">
 					<img
 						src={pic}
 						alt="pic"
-						className="relative object-contain w-9/12 h-full origin-bottom-left md:w-6/12"
+						className="relative object-contain w-9/12 h-full origin-bottom-left lg:w-9/12 md:w-6/12"
 					/>
-					<div className="absolute bottom-0 w-full px-6 py-6 md:hidden bg-none h-fit">
+					<div className="absolute bottom-0 w-full px-6 py-6 bg-none h-fit">
 						<div className="px-4 py-3 text-black rounded-xl backdrop-blur-lg bg-slate-50 bg-opacity-70">
 							<div className="flex items-center justify-between">
 								<div className="flex items-center justify-between gap-3">
@@ -61,26 +61,32 @@ const About = () => {
 					</div>
 				</div>
 
-				{/* About Sub Title */}
-				<h1 className="text-[38px] leading-snug mt-16 font-semibold text-center text-black lg:text-[80px] md:text-6xl dark:text-white">
-					Elevating products to perfection
-				</h1>
+				<div className="flex flex-col w-full mt-16 md:lg:mt-0">
+					{/* About Sub Title */}
+					<h1 className="text-[38px] lg:text-[74px] leading-snug font-semibold text-center lg:text-left text-black md:text-6xl dark:text-white">
+						Elevating products to{" "}
+						<span className="dark:text-darkprimary text-lightprimary">
+							perfection
+						</span>
+					</h1>
 
-				{/* About Description */}
-				<div className="mt-9 lg:px-80">
-					<p className="z-40 text-lg font-normal lg:text-[20px] lg:leading-10 leading-8 text-center text-black dark:font-light dark:text-white">
-						I am Alif Firdaus, a skilled Product Designer and
-						Front-end Developer renowned for exceeding expectations
-						with my meticulous attention to detail and in-depth
-						understanding of the harmony between Product Interface
-						and User Experience. With my expertise, I am confident
-						to bring your ideas to life!
-					</p>
+					{/* About Description */}
+					<div className="mt-9 lg:mt-14">
+						<p className="z-40 text-lg font-normal lg:text-[20px] lg:leading-10 leading-8 text-center lg:text-left text-black dark:font-light dark:text-white">
+							I am Alif Firdaus, a skilled Product Designer and
+							Front-end Developer renowned for exceeding
+							expectations with my meticulous attention to detail
+							and in-depth understanding of the harmony between
+							Product Interface and User Experience. With my
+							expertise, I am confident to bring your ideas to
+							life!
+						</p>
+					</div>
 				</div>
 			</div>
 
-			{/* Socials Container 2 */}
-			<div className="flex flex-col items-center justify-between pt-20 md:flex-row gap-7 md:gap-5 h-fit px-sectionpxsm lg:px-sectionpxlg">
+			{/* Socials Container 1 */}
+			<div className="flex flex-col items-center justify-between pt-20 lg:pt-32 md:flex-row gap-7 lg:gap-8 md:gap-5 h-fit px-sectionpxsm lg:px-sectionpxlg">
 				{/* Linkedin */}
 				<div className="w-full px-6 py-5 text-black bg-white shadow-2xl dark:text-white dark:bg-darksecondary rounded-xl shadow-slate-200 dark:shadow-none">
 					<div className="flex items-center justify-center px-[14px] py-[14px] bg-green-700 rounded-md w-fit h-fit">
@@ -123,7 +129,7 @@ const About = () => {
 			</div>
 
 			{/* Socials Container 2 */}
-			<div className="flex flex-col items-center justify-between pb-40 md:flex-row pt-7 md:pt-6 gap-7 md:gap-5 h-fit px-sectionpxsm lg:px-sectionpxlg">
+			<div className="flex flex-col items-center justify-between pb-40 md:flex-row pt-7 md:pt-6 lg:pt-8 gap-7 lg:gap-8 md:gap-5 h-fit px-sectionpxsm lg:px-sectionpxlg">
 				{/* Github */}
 				<div className="w-full px-6 py-5 text-black bg-white shadow-2xl dark:text-white dark:bg-darksecondary rounded-xl shadow-slate-200 dark:shadow-none">
 					<div className="flex items-center justify-center px-[14px] py-[14px] bg-purple-700 rounded-md w-fit h-fit">
