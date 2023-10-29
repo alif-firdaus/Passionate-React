@@ -60,14 +60,13 @@ function Navbar() {
 				{/* Navbar Links */}
 				<div
 					className={`fixed lg:flex lg:relative lg:flex-row gap-4 lg:gap-10 pt-6 lg:py-0 w-full lg:items-center lg:justify-between lg:w-fit flex flex-col px-sectionpxsm lg:px-0 h-screen lg:h-fit dark:bg-darkbg md:dark:bg-darkbg bg-white md:bg-white lg:bg-transparent lg:dark:bg-transparent z-[1] ${
-						isOpen ? "top-[73px] lg:top-0" : "-left-full lg:left-0"
+						isOpen
+							? "top-[73px] left-0 transition-all duration-300 ease-in-out"
+							: "-left-full lg:left-0"
 					}`}
 				>
 					{menuOptions.map((option, index) => (
-						<div
-							className="w-full transition-all duration-500 ease-in-out"
-							key={index}
-						>
+						<div key={index}>
 							<a
 								className="flex w-full lg:w-fit pb-5 lg:py-0 items-center text-lg lg:text-[15px] font-light lg:font-normal dark:text-white text-grey dark:border-slate-50 border-slate-400 dark:border-opacity-10 border-opacity-20 border-b-[1px] lg:border-none lg:dark:hover:text-softgrey lg:hover:text-black duration-300"
 								href={option.href}
