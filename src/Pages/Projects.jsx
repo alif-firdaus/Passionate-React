@@ -1,5 +1,7 @@
 import React from "react";
-import fixit from "../Assets/Fixit App.png";
+
+// Import Image
+import fixit from "../Assets/Images/Fixit App.png";
 
 const Projects = () => {
 	return (
