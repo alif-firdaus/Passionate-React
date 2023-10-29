@@ -9,7 +9,7 @@ const Projects = () => {
 			{/* Projects Title */}
 			<h1 className="text-5xl font-semibold text-center text-black md:text-6xl dark:text-white">
 				Featured projects I{" "}
-				<span className="text-transparent bg-gradient-to-r from-primary via-purple-500 to-pink-500 bg-clip-text">
+				<span className="text-transparent bg-gradient-to-r dark:from-darkprimary from-lightprimary dark:via-purple-500 dark:to-pink-500 via-purple-500 to-pink-500 bg-clip-text">
 					have created
 				</span>{" "}
 				so far
@@ -18,7 +18,7 @@ const Projects = () => {
 			{/* Projects Container 1 */}
 			<div className="flex flex-col items-center justify-between pt-20 gap-7 h-fit">
 				{/* Projects 1 */}
-				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-accent rounded-xl">
+				<div className="w-full px-6 py-5 text-black bg-white shadow-2xl dark:text-white dark:bg-darksecondary rounded-xl shadow-slate-200 dark:shadow-none">
 					<img
 						src={fixit}
 						alt="fixit"
@@ -33,14 +33,14 @@ const Projects = () => {
 						professional service providers for their needs.
 					</p>
 					<a href="#" target="_blank" rel="noopener noreferrer">
-						<button className="px-5 pt-3 pb-[14px] dark:bg-[#21254c] bg-lightgrey font-medium mt-8 rounded-lg text-[16px] w-fit h-fit">
+						<button className="px-5 pt-3 pb-[14px] dark:bg-darktertiary bg-lightbg font-medium mt-8 rounded-lg text-[16px] w-fit h-fit">
 							View Case Study
 						</button>
 					</a>
 				</div>
 
 				{/* Projects 2 */}
-				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-accent rounded-xl">
+				<div className="w-full px-6 py-5 text-black bg-white shadow-2xl dark:text-white dark:bg-darksecondary rounded-xl shadow-slate-200 dark:shadow-none">
 					<img
 						src={fixit}
 						alt="fixit"
@@ -55,7 +55,7 @@ const Projects = () => {
 						professional service providers for their needs.
 					</p>
 					<a href="#" target="_blank" rel="noopener noreferrer">
-						<button className="px-5 pt-3 pb-[14px] dark:bg-[#21254c] bg-lightgrey font-medium mt-8 rounded-lg text-[16px] w-fit h-fit">
+						<button className="px-5 pt-3 pb-[14px] dark:bg-darktertiary bg-lightbg font-medium mt-8 rounded-lg text-[16px] w-fit h-fit">
 							View Case Study
 						</button>
 					</a>
@@ -65,7 +65,7 @@ const Projects = () => {
 			{/* Projects Container 2 */}
 			<div className="flex flex-col items-center justify-between pt-7 gap-7 h-fit">
 				{/* Projects 3 */}
-				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-accent rounded-xl">
+				<div className="w-full px-6 py-5 text-black bg-white shadow-2xl dark:text-white dark:bg-darksecondary rounded-xl shadow-slate-200 dark:shadow-none">
 					<img
 						src={fixit}
 						alt="fixit"
@@ -80,14 +80,14 @@ const Projects = () => {
 						professional service providers for their needs.
 					</p>
 					<a href="#" target="_blank" rel="noopener noreferrer">
-						<button className="px-5 pt-3 pb-[14px] dark:bg-[#21254c] bg-lightgrey font-medium mt-8 rounded-lg text-[16px] w-fit h-fit">
+						<button className="px-5 pt-3 pb-[14px] dark:bg-darktertiary bg-lightbg font-medium mt-8 rounded-lg text-[16px] w-fit h-fit">
 							View Case Study
 						</button>
 					</a>
 				</div>
 
 				{/* Projects 4 */}
-				<div className="w-full px-6 py-5 text-black bg-white dark:text-white dark:bg-accent rounded-xl">
+				<div className="w-full px-6 py-5 text-black bg-white shadow-2xl dark:text-white dark:bg-darksecondary rounded-xl shadow-slate-200 dark:shadow-none">
 					<img
 						src={fixit}
 						alt="fixit"
@@ -102,7 +102,7 @@ const Projects = () => {
 						professional service providers for their needs.
 					</p>
 					<a href="#" target="_blank" rel="noopener noreferrer">
-						<button className="px-5 pt-3 pb-[14px] dark:bg-[#21254c] bg-lightgrey font-medium mt-8 rounded-lg text-[16px] w-fit h-fit">
+						<button className="px-5 pt-3 pb-[14px] dark:bg-darktertiary bg-lightbg font-medium mt-8 rounded-lg text-[16px] w-fit h-fit">
 							View Case Study
 						</button>
 					</a>
