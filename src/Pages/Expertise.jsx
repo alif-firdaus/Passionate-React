@@ -10,10 +10,10 @@ const Expertise = () => {
 	return (
 		<div
 			id="expertise"
-			className="relative w-full h-auto pt-20 pb-40 px-sectionpxsm"
+			className="relative w-full h-auto pt-20 pb-40 lg:pt-44 px-sectionpxsm lg:px-sectionpxlg"
 		>
 			{/* Expertise Title */}
-			<h1 className="text-5xl font-semibold text-center text-black md:text-6xl dark:text-white">
+			<h1 className="text-5xl lg:text-[80px] font-semibold text-center text-black md:text-6xl dark:text-white">
 				Skillset that propels my path as{" "}
 				<span className="text-transparent bg-gradient-to-r dark:from-darkprimary from-lightprimary dark:via-purple-500 dark:to-pink-500 via-purple-500 to-pink-500 bg-clip-text">
 					Tech-savvy Artist
@@ -21,7 +21,7 @@ const Expertise = () => {
 			</h1>
 
 			{/* Expertise Container 1 */}
-			<div className="flex flex-col items-center justify-between pt-20 md:flex-row gap-7 md:gap-5 h-fit">
+			<div className="flex flex-col items-center justify-between pt-20 lg:pt-40 md:flex-row gap-7 lg:gap-8 md:gap-5 h-fit">
 				{/* UI/UX Design */}
 				<div className="w-full px-6 py-5 text-black bg-white shadow-2xl dark:text-white dark:bg-darksecondary rounded-xl shadow-slate-200 dark:shadow-none">
 					<div className="flex items-center justify-center px-[14px] py-[14px] bg-purple-700 rounded-md w-fit h-fit">
@@ -56,7 +56,7 @@ const Expertise = () => {
 			</div>
 
 			{/* Expertise Container 2 */}
-			<div className="flex flex-col items-center justify-between md:flex-row pt-7 md:pt-6 gap-7 md:gap-5 h-fit">
+			<div className="flex flex-col items-center justify-between md:flex-row pt-7 lg:pt-8 md:pt-6 gap-7 lg:gap-8 md:gap-5 h-fit">
 				{/* Prototyping */}
 				<div className="w-full px-6 py-5 text-black bg-white shadow-2xl dark:text-white dark:bg-darksecondary rounded-xl shadow-slate-200 dark:shadow-none">
 					<div className="flex items-center justify-center px-[14px] py-[14px] bg-blue-700 rounded-md w-fit h-fit">
