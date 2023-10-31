@@ -4,15 +4,15 @@ const Experience = () => {
 	return (
 		<div
 			id="experience"
-			className="relative w-full h-auto pb-36 pt-28 bg-gradient-to-br from-purple-800 to-purple-950 px-sectionpxsm"
+			className="relative w-full h-auto pb-36 pt-28 lg:pt-48 lg:pb-64 bg-gradient-to-br from-purple-800 to-purple-950 px-sectionpxsm lg:px-sectionpxlg"
 		>
 			{/* Experience Title */}
-			<h1 className="text-5xl font-semibold text-center text-white md:text-6xl">
+			<h1 className="text-5xl font-semibold text-center text-white md:text-6xl lg:text-[80px]">
 				My career path as Tech-savvy Artist
 			</h1>
 
 			{/* Experience Container 1 */}
-			<div className="flex flex-col items-center justify-between pt-20 md:flex-row gap-7 md:gap-5 h-fit">
+			<div className="flex flex-col items-center justify-between pt-20 lg:pt-40 md:flex-row gap-7 md:gap-5 h-fit">
 				{/* Experience 1 */}
 				<div className="w-full px-6 py-5 text-white bg-purple-700 bg-opacity-50 rounded-xl">
 					<div className="flex items-center justify-between">
