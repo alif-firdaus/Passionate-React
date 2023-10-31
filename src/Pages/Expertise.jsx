@@ -10,7 +10,7 @@ const Expertise = () => {
 	return (
 		<div
 			id="expertise"
-			className="relative w-full h-auto pt-20 pb-40 lg:pt-44 px-sectionpxsm lg:px-sectionpxlg"
+			className="relative w-full h-auto pt-20 pb-40 lg:pt-44 lg:pb-64 px-sectionpxsm lg:px-sectionpxlg"
 		>
 			{/* Expertise Title */}
 			<h1 className="text-5xl lg:text-[80px] font-semibold text-center text-black md:text-6xl dark:text-white">
