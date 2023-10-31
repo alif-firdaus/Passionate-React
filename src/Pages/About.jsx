@@ -26,13 +26,13 @@ const About = () => {
 				</h1>
 			</div>
 
-			<div className="flex flex-col pb-40 mt-20 md:lg:flex-row md:lg:justify-between lg:items-center md:lg:gap-28 lg:mt-44 px-sectionpxsm lg:px-sectionpxlg">
+			<div className="flex flex-col pb-40 mt-20 md:lg:flex-row md:lg:justify-between md:lg:items-center md:lg:gap-16 lg:mt-44 px-sectionpxsm lg:px-sectionpxlg">
 				{/* About Decoration */}
-				<div className="relative flex bg-purple-600 pt-14 md:pt-16 h-fit lg:h-fit rounded-3xl lg:w-full">
+				<div className="relative flex bg-purple-600 pt-14 md:pt-16 h-fit rounded-3xl lg:w-full">
 					<img
 						src={pic}
 						alt="pic"
-						className="relative object-contain w-9/12 h-full lg:w-9/12 md:w-6/12"
+						className="relative object-contain w-9/12 h-full lg:w-8/12 md:w-6/12"
 					/>
 					<div className="absolute bottom-0 w-full px-6 py-6 bg-none h-fit">
 						<div className="px-4 py-3 text-black rounded-xl backdrop-blur-lg bg-slate-50 bg-opacity-70">
@@ -62,8 +62,8 @@ const About = () => {
 				</div>
 
 				{/* About Description */}
-				<div className="w-full px-8 pt-9 pb-10 text-left text-black mt-14 lg:mt-14 dark:text-white rounded-xl border-[1px] dark:border-slate-50 border-slate-400 dark:border-opacity-20 border-opacity-40">
-					<h1 className="text-3xl font-semibold">
+				<div className="w-full px-8 pt-9 pb-10 text-left text-black mt-14 lg:mt-0 flex flex-col dark:text-white rounded-xl border-[1px] dark:border-slate-50 border-slate-400 dark:border-opacity-20 border-opacity-40">
+					<h1 className="text-3xl font-semibold lg:text-5xl">
 						Elevating products to{" "}
 						<span className="dark:text-darkprimary text-lightprimary">
 							perfection
@@ -80,7 +80,7 @@ const About = () => {
 					{/* Social Links */}
 					<div className="flex items-center gap-5 mt-11">
 						{/* Linkedin */}
-						<div className="items-center justify-center p-[14px] bg-green-700 rounded-lg w-fit h-fit">
+						<div className="items-center justify-center p-[14px] bg-green-700 rounded-lg w-fit h-fit hover:bg-darktertiary duration-300 cursor-pointer">
 							<a
 								href="https://www.linkedin.com/in/aliffirdaus97/"
 								target="_blank"
@@ -95,7 +95,7 @@ const About = () => {
 						</div>
 
 						{/* Dribbble */}
-						<div className="items-center justify-center p-[14px] bg-orange-600 rounded-lg w-fit h-fit">
+						<div className="items-center justify-center p-[14px] bg-orange-600 rounded-lg w-fit h-fit hover:bg-darktertiary duration-300 cursor-pointer">
 							<a
 								href="https://dribbble.com/aliffirdaus"
 								target="_blank"
@@ -110,7 +110,7 @@ const About = () => {
 						</div>
 
 						{/* Github */}
-						<div className="items-center justify-center p-[14px] bg-purple-700 rounded-lg w-fit h-fit">
+						<div className="items-center justify-center p-[14px] bg-purple-700 rounded-lg w-fit h-fit hover:bg-darktertiary duration-300 cursor-pointer">
 							<a
 								href="https://github.com/alif-firdaus"
 								target="_blank"
@@ -125,7 +125,7 @@ const About = () => {
 						</div>
 
 						{/* Behance */}
-						<div className="items-center justify-center p-[14px] bg-blue-700 rounded-lg w-fit h-fit">
+						<div className="items-center justify-center p-[14px] bg-blue-700 rounded-lg w-fit h-fit hover:bg-darktertiary duration-300 cursor-pointer">
 							<a
 								href="https://www.behance.net/aliffirdaus97"
 								target="_blank"
