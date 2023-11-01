@@ -23,7 +23,7 @@ const Expertise = () => {
 			{/* Expertise Container 1 */}
 			<div className="flex flex-col items-center justify-between pt-20 lg:pt-40 md:flex-row gap-7 lg:gap-8 md:gap-5 h-fit">
 				{/* UI/UX Design */}
-				<div className="w-full px-6 py-5 text-black bg-white shadow-2xl dark:text-white dark:bg-darksecondary rounded-xl shadow-slate-200 dark:shadow-none">
+				<div className="w-full px-8 pt-8 pb-10 text-black bg-white shadow-2xl dark:text-white dark:bg-darksecondary rounded-xl shadow-slate-200 dark:shadow-none">
 					<div className="flex items-center justify-center px-[14px] py-[14px] bg-purple-700 rounded-md w-fit h-fit">
 						<img
 							src={uiuxdesign}
@@ -41,7 +41,7 @@ const Expertise = () => {
 				</div>
 
 				{/* Project Planning */}
-				<div className="w-full px-6 py-5 text-black bg-white shadow-2xl dark:text-white dark:bg-darksecondary rounded-xl shadow-slate-200 dark:shadow-none">
+				<div className="w-full px-8 pt-8 pb-10 text-black bg-white shadow-2xl dark:text-white dark:bg-darksecondary rounded-xl shadow-slate-200 dark:shadow-none">
 					<div className="flex items-center justify-center px-[14px] py-[14px] bg-orange-600 rounded-md w-fit h-fit">
 						<img src={planning} alt="planning" className="w-6" />
 					</div>
@@ -58,7 +58,7 @@ const Expertise = () => {
 			{/* Expertise Container 2 */}
 			<div className="flex flex-col items-center justify-between md:flex-row pt-7 lg:pt-8 md:pt-6 gap-7 lg:gap-8 md:gap-5 h-fit">
 				{/* Prototyping */}
-				<div className="w-full px-6 py-5 text-black bg-white shadow-2xl dark:text-white dark:bg-darksecondary rounded-xl shadow-slate-200 dark:shadow-none">
+				<div className="w-full px-8 pt-8 pb-10 text-black bg-white shadow-2xl dark:text-white dark:bg-darksecondary rounded-xl shadow-slate-200 dark:shadow-none">
 					<div className="flex items-center justify-center px-[14px] py-[14px] bg-blue-700 rounded-md w-fit h-fit">
 						<img
 							src={prototyping}
@@ -76,7 +76,7 @@ const Expertise = () => {
 				</div>
 
 				{/* Front-end Development */}
-				<div className="w-full px-6 py-5 text-black bg-white shadow-2xl dark:text-white dark:bg-darksecondary rounded-xl shadow-slate-200 dark:shadow-none">
+				<div className="w-full px-8 pt-8 pb-10 text-black bg-white shadow-2xl dark:text-white dark:bg-darksecondary rounded-xl shadow-slate-200 dark:shadow-none">
 					<div className="flex items-center justify-center px-[14px] py-[14px] bg-green-700 rounded-md w-fit h-fit">
 						<img src={frontend} alt="frontend" className="w-6" />
 					</div>
