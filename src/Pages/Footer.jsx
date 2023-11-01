@@ -109,19 +109,19 @@ const Footer = () => {
 					{/* Navigation Links */}
 					<div className="flex flex-col gap-4 mt-5">
 						<p className="text-[18px] dark:text-white text-black">
-							Home
+							<a href="#home">Home</a>
 						</p>
 						<p className="text-[18px] dark:text-white text-black">
-							About
+							<a href="#about">About</a>
 						</p>
 						<p className="text-[18px] dark:text-white text-black">
-							Expertise
+							<a href="#expertise">Expertise</a>
 						</p>
 						<p className="text-[18px] dark:text-white text-black">
-							Experience
+							<a href="#experience">Experience</a>
 						</p>
 						<p className="text-[18px] dark:text-white text-black">
-							Projects
+							<a href="#projects">Projects</a>
 						</p>
 					</div>
 
