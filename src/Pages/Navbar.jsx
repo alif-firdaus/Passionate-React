@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+
+// Import HeroIcons
 import {
 	Bars3Icon,
 	XMarkIcon,
