@@ -1,15 +1,15 @@
 import React from "react";
 
 // Import Images
-import pattern from "../Assets/Images/pattern.png";
+import pattern1 from "../Assets/Images/pattern1.png";
 import pattern2 from "../Assets/Images/pattern2.png";
 
 const Hero = () => {
 	return (
 		<>
 			<img
-				src={pattern}
-				alt="pattern"
+				src={pattern1}
+				alt="pattern1"
 				className="absolute top-0 block w-screen opacity-30 h-96 lg:hidden"
 			/>
 			<img
