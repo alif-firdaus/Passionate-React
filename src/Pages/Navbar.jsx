@@ -88,7 +88,7 @@ function Navbar() {
 				{/* Navbar Extra */}
 				<div className="flex justify-between gap-4 lg:gap-6 mr-[26px] lg:mr-20">
 					<div
-						className="flex justify-center border-[1px] w-[40px] h-[40px] rounded-lg dark:border-slate-50 border-slate-400 dark:border-opacity-10 border-opacity-30 lg:dark:bg-darksecondary lg:dark:border-none lg:bg-none lg:border-slate-400 lg:border-opacity-30 items-center cursor-pointer lg:hover:border-opacity-80 duration-300"
+						className="flex justify-center border-[1px] w-[40px] h-[40px] rounded-lg dark:border-slate-50 border-slate-400 dark:border-opacity-20 border-opacity-40 items-center cursor-pointer lg:hover:border-opacity-50 duration-300"
 						onClick={handleThemeSwitch}
 					>
 						{theme === "dark" ? (
