@@ -19,7 +19,7 @@ const Projects = () => {
 			</h1>
 
 			{/* Projects 1 */}
-			<div className="flex flex-col w-full px-8 mt-20 text-white bg-purple-700 lg:mt-40 py-9 rounded-xl">
+			<div className="flex flex-col justify-between w-full px-8 mt-20 text-white bg-purple-700 lg:flex-row lg:mt-40 py-9 rounded-xl">
 				<div className="flex flex-col">
 					<p className="text-[15px]">FIXIT MOBILE APP</p>
 					<h1 className="text-5xl font-semibold mt-7">
@@ -31,7 +31,7 @@ const Projects = () => {
 						</button>
 					</a>
 				</div>
-				<div className="flex w-full mt-14">
+				<div className="flex w-full mt-14 lg:mt-0">
 					<img
 						src={fixit}
 						alt="fixit"
@@ -41,7 +41,7 @@ const Projects = () => {
 			</div>
 
 			{/* Projects 2 */}
-			<div className="flex flex-col w-full px-8 text-white bg-orange-600 py-9 mt-7 rounded-xl bg-opacity-90">
+			<div className="flex flex-col justify-between w-full px-8 text-white bg-orange-600 lg:flex-row py-9 mt-7 lg:mt-10 rounded-xl bg-opacity-90">
 				<div className="flex flex-col">
 					<p className="text-[15px]">AQUA WALLET</p>
 					<h1 className="text-5xl font-semibold mt-7">
@@ -53,7 +53,7 @@ const Projects = () => {
 						</button>
 					</a>
 				</div>
-				<div className="flex w-full mt-14">
+				<div className="flex w-full mt-14 lg:mt-0">
 					<img
 						src={fixit}
 						alt="fixit"
@@ -63,7 +63,7 @@ const Projects = () => {
 			</div>
 
 			{/* Projects 3 */}
-			<div className="flex flex-col w-full px-8 text-white bg-blue-700 py-9 mt-7 rounded-xl bg-opacity-90">
+			<div className="flex flex-col justify-between w-full px-8 text-white bg-blue-700 lg:flex-row py-9 mt-7 lg:mt-10 rounded-xl bg-opacity-90">
 				<div className="flex flex-col">
 					<p className="text-[15px]">SWIFTBASKET</p>
 					<h1 className="text-5xl font-semibold mt-7">
@@ -75,7 +75,7 @@ const Projects = () => {
 						</button>
 					</a>
 				</div>
-				<div className="flex w-full mt-14">
+				<div className="flex w-full mt-14 lg:mt-0">
 					<img
 						src={fixit}
 						alt="fixit"
@@ -85,7 +85,7 @@ const Projects = () => {
 			</div>
 
 			{/* Projects 4 */}
-			<div className="flex flex-col w-full px-8 text-white bg-green-700 py-9 mt-7 rounded-xl bg-opacity-90">
+			<div className="flex flex-col justify-between w-full px-8 text-white bg-green-700 lg:flex-row py-9 mt-7 lg:mt-10 rounded-xl bg-opacity-90">
 				<div className="flex flex-col">
 					<p className="text-[15px]">E-COMMERCE BUILDER</p>
 					<h1 className="text-5xl font-semibold mt-7">
@@ -97,7 +97,7 @@ const Projects = () => {
 						</button>
 					</a>
 				</div>
-				<div className="flex w-full mt-14">
+				<div className="flex w-full mt-14 lg:mt-0">
 					<img
 						src={fixit}
 						alt="fixit"
