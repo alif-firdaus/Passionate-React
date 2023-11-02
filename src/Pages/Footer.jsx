@@ -42,7 +42,7 @@ const Footer = () => {
 						{/* Footer Socials */}
 						<div className="flex gap-5 mt-7">
 							{/* Linkedin */}
-							<div className="items-center justify-center p-[14px] dark:bg-darktertiary bg-purple-700 rounded-lg w-fit h-fit dark:bg-opacity-60 cursor-pointer">
+							<div className="items-center justify-center p-[14px] dark:bg-darktertiary bg-purple-700 rounded-lg w-fit h-fit dark:bg-opacity-60 cursor-pointer dark:hover:bg-green-700 dark:duration-300">
 								<a
 									href="https://www.linkedin.com/in/aliffirdaus97/"
 									target="_blank"
@@ -57,7 +57,7 @@ const Footer = () => {
 							</div>
 
 							{/* Dribbble */}
-							<div className="items-center justify-center p-[14px] dark:bg-darktertiary bg-orange-600 rounded-lg w-fit h-fit dark:bg-opacity-60 cursor-pointer">
+							<div className="items-center justify-center p-[14px] dark:bg-darktertiary bg-orange-600 rounded-lg w-fit h-fit dark:bg-opacity-60 cursor-pointer dark:hover:bg-orange-600 dark:duration-300">
 								<a
 									href="https://dribbble.com/aliffirdaus"
 									target="_blank"
@@ -72,7 +72,7 @@ const Footer = () => {
 							</div>
 
 							{/* Github */}
-							<div className="items-center justify-center p-[14px] dark:bg-darktertiary bg-blue-700 rounded-lg w-fit h-fit dark:bg-opacity-60 cursor-pointer">
+							<div className="items-center justify-center p-[14px] dark:bg-darktertiary bg-blue-700 rounded-lg w-fit h-fit dark:bg-opacity-60 cursor-pointer dark:hover:bg-purple-700 dark:duration-300">
 								<a
 									href="https://github.com/alif-firdaus"
 									target="_blank"
@@ -87,7 +87,7 @@ const Footer = () => {
 							</div>
 
 							{/* Behance */}
-							<div className="items-center justify-center p-[14px] dark:bg-darktertiary bg-green-700 rounded-lg w-fit h-fit dark:bg-opacity-60 cursor-pointer">
+							<div className="items-center justify-center p-[14px] dark:bg-darktertiary bg-green-700 rounded-lg w-fit h-fit dark:bg-opacity-60 cursor-pointer dark:hover:bg-blue-700 dark:duration-300">
 								<a
 									href="https://www.behance.net/aliffirdaus97"
 									target="_blank"
