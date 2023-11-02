@@ -31,11 +31,13 @@ const Projects = () => {
 						</button>
 					</a>
 				</div>
-				<img
-					src={fixit}
-					alt="fixit"
-					className="object-cover w-full h-auto rounded-lg mt-14"
-				/>
+				<div className="flex w-full mt-14">
+					<img
+						src={fixit}
+						alt="fixit"
+						className="object-cover w-full h-auto rounded-lg"
+					/>
+				</div>
 			</div>
 
 			{/* Projects 2 */}
@@ -51,11 +53,13 @@ const Projects = () => {
 						</button>
 					</a>
 				</div>
-				<img
-					src={fixit}
-					alt="fixit"
-					className="object-cover w-full h-auto rounded-lg mt-14"
-				/>
+				<div className="flex w-full mt-14">
+					<img
+						src={fixit}
+						alt="fixit"
+						className="object-cover w-full h-auto rounded-lg"
+					/>
+				</div>
 			</div>
 
 			{/* Projects 3 */}
@@ -71,11 +75,13 @@ const Projects = () => {
 						</button>
 					</a>
 				</div>
-				<img
-					src={fixit}
-					alt="fixit"
-					className="object-cover w-full h-auto rounded-lg mt-14"
-				/>
+				<div className="flex w-full mt-14">
+					<img
+						src={fixit}
+						alt="fixit"
+						className="object-cover w-full h-auto rounded-lg"
+					/>
+				</div>
 			</div>
 
 			{/* Projects 4 */}
@@ -91,11 +97,13 @@ const Projects = () => {
 						</button>
 					</a>
 				</div>
-				<img
-					src={fixit}
-					alt="fixit"
-					className="object-cover w-full h-auto rounded-lg mt-14"
-				/>
+				<div className="flex w-full mt-14">
+					<img
+						src={fixit}
+						alt="fixit"
+						className="object-cover w-full h-auto rounded-lg"
+					/>
+				</div>
 			</div>
 		</div>
 	);
