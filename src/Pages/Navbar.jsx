@@ -102,7 +102,7 @@ function Navbar() {
 						onClick={() => {
 							setIsOpen(!isOpen);
 						}}
-						className="flex lg:hidden justify-center border-[1px] w-[40px] h-[40px] rounded-lg dark:border-slate-50 border-slate-400 dark:border-opacity-10 border-opacity-20 items-center cursor-pointer"
+						className="flex lg:hidden justify-center border-[1px] w-[40px] h-[40px] rounded-lg dark:border-slate-50 border-slate-400 dark:border-opacity-20 border-opacity-40 items-center cursor-pointer"
 					>
 						{isOpen ? (
 							<XMarkIcon className="w-6 stroke-[1.3px] dark:text-white text-black" />
