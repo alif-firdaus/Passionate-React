@@ -29,9 +29,7 @@ const Experience = () => {
 					<div className="px-4 pt-[6px] pb-[7px] bg-slate-50 bg-opacity-20 mt-8 rounded-lg w-fit h-fit">
 						<p className="text-white text-md">United States</p>
 					</div>
-					<p className="text-white mt-16 text-[16px]">
-						May 2023 - Present
-					</p>
+					<p className="mt-16 text-[16px]">May 2023 - Present</p>
 				</div>
 
 				{/* Experience 2 */}
@@ -50,9 +48,7 @@ const Experience = () => {
 					<div className="px-4 pt-[6px] pb-[7px] bg-slate-50 bg-opacity-20 mt-8 rounded-lg w-fit h-fit">
 						<p className="text-white text-md">Singapore</p>
 					</div>
-					<p className="text-white mt-16 text-[16px]">
-						Nov 2022 - May 2023
-					</p>
+					<p className="mt-16 text-[16px]">Nov 2022 - May 2023</p>
 				</div>
 			</div>
 
@@ -74,9 +70,7 @@ const Experience = () => {
 					<div className="px-4 pt-[6px] pb-[7px] bg-slate-50 bg-opacity-20 mt-8 rounded-lg w-fit h-fit">
 						<p className="text-white text-md">Jakarta</p>
 					</div>
-					<p className="text-white mt-16 text-[16px]">
-						Jul 2021 - Jun 2022
-					</p>
+					<p className="mt-16 text-[16px]">Jul 2021 - Jun 2022</p>
 				</div>
 
 				{/* Experience 4 */}
@@ -95,9 +89,7 @@ const Experience = () => {
 					<div className="px-4 pt-[6px] pb-[7px] bg-slate-50 bg-opacity-20 mt-8 rounded-lg w-fit h-fit">
 						<p className="text-white text-md">Malang</p>
 					</div>
-					<p className="text-white mt-16 text-[16px]">
-						Jul 2020 - Present
-					</p>
+					<p className="mt-16 text-[16px]">Jul 2020 - Present</p>
 				</div>
 			</div>
 		</div>
