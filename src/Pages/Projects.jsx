@@ -16,7 +16,7 @@ const Projects = () => {
 			</h1>
 
 			{/* Projects 1 */}
-			<div className="w-full px-8 pb-10 mt-20 text-white bg-purple-700 pt-9 rounded-xl">
+			<div className="w-full px-8 mt-20 text-white bg-purple-700 py-9 rounded-xl">
 				<p className="text-[15px]">FIXIT MOBILE APP</p>
 				<h1 className="text-5xl font-semibold mt-7">
 					Connecting people with local service provider
@@ -26,10 +26,15 @@ const Projects = () => {
 						Case Study coming soon
 					</button>
 				</a>
+				<img
+					src={fixit}
+					alt="fixit"
+					className="object-cover w-full h-auto rounded-lg mt-14"
+				/>
 			</div>
 
 			{/* Projects 2 */}
-			<div className="w-full px-8 pb-10 text-white bg-orange-600 mt-7 pt-9 rounded-xl bg-opacity-90">
+			<div className="w-full px-8 text-white bg-orange-600 py-9 mt-7 rounded-xl bg-opacity-90">
 				<p className="text-[15px]">AQUA WALLET</p>
 				<h1 className="text-5xl font-semibold mt-7">
 					Transferring and storing Crypto and NFTs
@@ -39,10 +44,15 @@ const Projects = () => {
 						Case Study coming soon
 					</button>
 				</a>
+				<img
+					src={fixit}
+					alt="fixit"
+					className="object-cover w-full h-auto rounded-lg mt-14"
+				/>
 			</div>
 
 			{/* Projects 3 */}
-			<div className="w-full px-8 pb-10 text-white bg-blue-700 mt-7 pt-9 rounded-xl bg-opacity-90">
+			<div className="w-full px-8 text-white bg-blue-700 py-9 mt-7 rounded-xl bg-opacity-90">
 				<p className="text-[15px]">SWIFTBASKET</p>
 				<h1 className="text-5xl font-semibold mt-7">
 					Platform to fill customer's daily grocery needs
@@ -52,10 +62,15 @@ const Projects = () => {
 						Case Study coming soon
 					</button>
 				</a>
+				<img
+					src={fixit}
+					alt="fixit"
+					className="object-cover w-full h-auto rounded-lg mt-14"
+				/>
 			</div>
 
 			{/* Projects 4 */}
-			<div className="w-full px-8 pb-10 text-white bg-green-700 mt-7 pt-9 rounded-xl bg-opacity-90">
+			<div className="w-full px-8 text-white bg-green-700 py-9 mt-7 rounded-xl bg-opacity-90">
 				<p className="text-[15px]">E-COMMERCE BUILDER</p>
 				<h1 className="text-5xl font-semibold mt-7">
 					Building e-commerce and selling online
@@ -65,6 +80,11 @@ const Projects = () => {
 						Case Study coming soon
 					</button>
 				</a>
+				<img
+					src={fixit}
+					alt="fixit"
+					className="object-cover w-full h-auto rounded-lg mt-14"
+				/>
 			</div>
 		</div>
 	);
