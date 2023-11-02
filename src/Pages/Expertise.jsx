@@ -49,8 +49,8 @@ const Expertise = () => {
 						Project Planning
 					</h1>
 					<p className="mt-3 text-lg font-normal dark:font-light">
-						I tend to create wireframe, user-flow, and user-persona
-						to determine intended features and functionality.
+						I tend to create wireframe, user-flow, etc to determine
+						intended features and functionalities.
 					</p>
 				</div>
 			</div>
