@@ -10,12 +10,12 @@ const Hero = () => {
 			<img
 				src={pattern1}
 				alt="pattern1"
-				className="absolute top-0 block w-screen opacity-30 h-96 lg:hidden"
+				className="absolute top-0 block w-screen opacity-20 h-96 lg:hidden"
 			/>
 			<img
 				src={pattern2}
 				alt="pattern2"
-				className="absolute top-0 hidden w-screen opacity-30 lg:block"
+				className="absolute top-0 hidden w-screen opacity-20 lg:block"
 			/>
 			<div
 				id="home"
