@@ -1,12 +1,5 @@
 import React from "react";
 
-import {
-	createBrowserRouter,
-	RouterProvider,
-	Route,
-	Link,
-} from "react-router-dom";
-
 // Import Image
 import fixit from "../Assets/Images/Fixit App.png";
 
