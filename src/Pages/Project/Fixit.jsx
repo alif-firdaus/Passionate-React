@@ -2,8 +2,8 @@ import React from "react";
 
 const Fixit = () => {
 	return (
-		<div id="fixit" className="bg-darkbg">
-			Fixit
+		<div>
+			<h1 className="text-6xl">FIXIT</h1>
 		</div>
 	);
 };

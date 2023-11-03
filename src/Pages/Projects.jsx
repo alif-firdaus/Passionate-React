@@ -1,9 +1,14 @@
 import React from "react";
 
+// Import React Router
+import { useNavigate } from "react-router";
+
 // Import Image
 import fixit from "../Assets/Images/Fixit App.png";
 
 const Projects = () => {
+	const navigate = useNavigate();
+
 	return (
 		<div
 			id="projects"
@@ -25,7 +30,10 @@ const Projects = () => {
 					<h1 className="text-5xl font-semibold mt-7 lg:mt-10">
 						Connecting people with local service provider
 					</h1>
-					<button className="px-5 pt-3 pb-[14px] bg-purple-600 mt-14 rounded-lg text-[16px] w-fit h-fit">
+					<button
+						className="px-5 pt-3 pb-[14px] bg-purple-600 mt-14 rounded-lg text-[16px] w-fit h-fit"
+						onClick={() => navigate("/projects-fixit-mobile-app")}
+					>
 						Case Study coming soon
 					</button>
 				</div>
@@ -45,11 +53,12 @@ const Projects = () => {
 					<h1 className="text-5xl font-semibold mt-7 lg:mt-10">
 						Transferring and storing Crypto and NFTs
 					</h1>
-					<a href="#" target="_blank" rel="noopener noreferrer">
-						<button className="px-5 pt-3 pb-[14px] bg-orange-500 mt-14 rounded-lg text-[16px] w-fit h-fit">
-							Case Study coming soon
-						</button>
-					</a>
+					<button
+						className="px-5 pt-3 pb-[14px] bg-orange-500 mt-14 rounded-lg text-[16px] w-fit h-fit"
+						onClick={() => navigate("/projects-aqua-wallet")}
+					>
+						Case Study coming soon
+					</button>
 				</div>
 				<div className="flex w-full mt-14 lg:mt-0">
 					<img
@@ -67,11 +76,12 @@ const Projects = () => {
 					<h1 className="text-5xl font-semibold mt-7 lg:mt-10">
 						Platform to fill customer's daily grocery needs
 					</h1>
-					<a href="#" target="_blank" rel="noopener noreferrer">
-						<button className="px-5 pt-3 pb-[14px] bg-blue-600 mt-14 rounded-lg text-[16px] w-fit h-fit">
-							Case Study coming soon
-						</button>
-					</a>
+					<button
+						className="px-5 pt-3 pb-[14px] bg-blue-600 mt-14 rounded-lg text-[16px] w-fit h-fit"
+						onClick={() => navigate("/projects-swiftbasket")}
+					>
+						Case Study coming soon
+					</button>
 				</div>
 				<div className="flex w-full mt-14 lg:mt-0">
 					<img
@@ -89,11 +99,12 @@ const Projects = () => {
 					<h1 className="text-5xl font-semibold mt-7 lg:mt-10">
 						Building e-commerce and selling online
 					</h1>
-					<a href="#" target="_blank" rel="noopener noreferrer">
-						<button className="px-5 pt-3 pb-[14px] bg-green-600 mt-14 rounded-lg text-[16px] w-fit h-fit">
-							Case Study coming soon
-						</button>
-					</a>
+					<button
+						className="px-5 pt-3 pb-[14px] bg-green-600 mt-14 rounded-lg text-[16px] w-fit h-fit"
+						onClick={() => navigate("/projects-ecommerce-builder")}
+					>
+						Case Study coming soon
+					</button>
 				</div>
 				<div className="flex w-full mt-14 lg:mt-0">
 					<img
