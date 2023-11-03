@@ -1,5 +1,12 @@
 import React from "react";
 
+import {
+	createBrowserRouter,
+	RouterProvider,
+	Route,
+	Link,
+} from "react-router-dom";
+
 // Import Image
 import fixit from "../Assets/Images/Fixit App.png";
 
@@ -25,11 +32,9 @@ const Projects = () => {
 					<h1 className="text-5xl font-semibold mt-7 lg:mt-10">
 						Connecting people with local service provider
 					</h1>
-					<a href="#" target="_blank" rel="noopener noreferrer">
-						<button className="px-5 pt-3 pb-[14px] bg-purple-600 mt-14 rounded-lg text-[16px] w-fit h-fit">
-							Case Study coming soon
-						</button>
-					</a>
+					<button className="px-5 pt-3 pb-[14px] bg-purple-600 mt-14 rounded-lg text-[16px] w-fit h-fit">
+						Case Study coming soon
+					</button>
 				</div>
 				<div className="flex w-full mt-14 lg:mt-0">
 					<img
