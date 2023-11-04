@@ -18,7 +18,7 @@ const About = () => {
 				className="relative w-full h-auto pt-20 lg:pt-44 px-sectionpxsm lg:px-sectionpxlg"
 			>
 				{/* About Title */}
-				<h1 className="text-5xl font-semibold text-center text-black lg:text-[70px] px-12 md:text-6xl dark:text-white">
+				<h1 className="text-5xl font-semibold text-center text-black lg:text-[70px] lg:px-12 md:text-6xl dark:text-white">
 					Delivering results that go{" "}
 					<span className="text-transparent bg-gradient-to-r dark:from-darkprimary from-lightprimary dark:via-purple-500 dark:to-pink-500 via-purple-500 to-pink-500 bg-clip-text">
 						beyond expectations
