@@ -35,7 +35,7 @@ const Footer = () => {
 						</div>
 
 						{/* Footer Description */}
-						<p className="mt-2 text-black dark:text-white">
+						<p className="mt-2 text-black lg:mt-4 dark:text-white">
 							Crafting pixels to make dreams come true
 						</p>
 
@@ -105,25 +105,25 @@ const Footer = () => {
 
 					{/* Navigation */}
 					<div className="flex flex-col mt-16 lg:mt-0">
-						<div className="flex items-center font-semibold cursor-pointer text-[22px] pb-[2px] dark:text-white text-black">
+						<div className="flex items-center font-semibold cursor-pointer text-[22px] lg:text-[18px] pb-[2px] dark:text-white text-black">
 							Navigation
 						</div>
 
 						{/* Navigation Links */}
 						<div className="flex flex-col gap-4 mt-5 lg:z-10">
-							<p className="text-[18px] dark:text-white text-black cursor-pointer">
+							<p className="text-[18px] lg:text-[16px] dark:text-white text-black cursor-pointer">
 								<a href="#home">Home</a>
 							</p>
-							<p className="text-[18px] dark:text-white text-black cursor-pointer">
+							<p className="text-[18px] lg:text-[16px] dark:text-white text-black cursor-pointer">
 								<a href="#about">About</a>
 							</p>
-							<p className="text-[18px] dark:text-white text-black cursor-pointer">
+							<p className="text-[18px] lg:text-[16px] dark:text-white text-black cursor-pointer">
 								<a href="#expertise">Expertise</a>
 							</p>
-							<p className="text-[18px] dark:text-white text-black cursor-pointer">
+							<p className="text-[18px] lg:text-[16px] dark:text-white text-black cursor-pointer">
 								<a href="#experience">Experience</a>
 							</p>
-							<p className="text-[18px] dark:text-white text-black cursor-pointer">
+							<p className="text-[18px] lg:text-[16px] dark:text-white text-black cursor-pointer">
 								<a href="#projects">Projects</a>
 							</p>
 						</div>
@@ -131,19 +131,19 @@ const Footer = () => {
 
 					{/* Connect */}
 					<div className="flex flex-col mt-16 lg:mt-0">
-						<div className="flex items-center font-semibold cursor-pointer text-[22px] pb-[2px] dark:text-white text-black">
+						<div className="flex items-center font-semibold cursor-pointer text-[22px] lg:text-[18px] pb-[2px] dark:text-white text-black">
 							Connect
 						</div>
 
 						{/* Connect List */}
 						<div className="flex flex-col gap-4 mt-5">
-							<p className="text-[18px] dark:text-white text-black">
+							<p className="text-[18px] lg:text-[16px] dark:text-white text-black">
 								+62 813-3666-4586
 							</p>
-							<p className="text-[18px] dark:text-white text-black">
+							<p className="text-[18px] lg:text-[16px] dark:text-white text-black">
 								www.aliffirdaus.com
 							</p>
-							<p className="text-[18px] dark:text-white text-black">
+							<p className="text-[18px] lg:text-[16px] dark:text-white text-black">
 								aliffirdaus@petaniweb.com
 							</p>
 						</div>
@@ -152,7 +152,7 @@ const Footer = () => {
 
 				{/* Footer Bottom */}
 				<div className="w-full pt-10 mt-16 border-t-[1px] border-opacity-30 border-slate-50 px-sectionpxsm lg:px-sectionpxlg">
-					<p className="text-[18px] dark:text-white text-black">
+					<p className="text-[18px] lg:text-[16px] dark:text-white text-black">
 						&#169; Passionate Personal Website
 					</p>
 				</div>
