@@ -14,7 +14,7 @@ import Projects from "./Pages/Projects";
 import Getintouch from "./Pages/Getintouch";
 import Footer from "./Pages/Footer";
 
-function App() {
+const App = () => {
 	return (
 		<div className="bg-lightbg App dark:bg-darkbg">
 			<Navbar />
@@ -28,6 +28,6 @@ function App() {
 			<Footer />
 		</div>
 	);
-}
+};
 
 export default App;
