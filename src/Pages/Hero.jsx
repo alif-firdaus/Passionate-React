@@ -30,7 +30,7 @@ const Hero = () => {
 
 				{/* Hero Headline */}
 				<div className="relative m-auto mt-9 lg:mt-12 lg:px-32">
-					<h1 className="text-5xl font-semibold text-center text-black lg:text-[75px] md:text-6xl dark:text-white">
+					<h1 className="text-5xl font-semibold text-center text-black lg:text-[75px] xl:text-[80px] md:text-6xl dark:text-white">
 						Crafting pixels to make{" "}
 						<span className="text-transparent bg-gradient-to-r dark:from-darkprimary from-lightprimary dark:via-purple-500 dark:to-pink-500 via-purple-500 to-pink-500 bg-clip-text">
 							dreams
