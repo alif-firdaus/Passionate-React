@@ -1,7 +1,6 @@
 import React from "react";
 
 // Import Images
-import pattern3 from "../Assets/Images/pattern3.png";
 import pattern4 from "../Assets/Images/pattern4.png";
 
 // Import Icons
