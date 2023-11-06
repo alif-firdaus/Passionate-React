@@ -30,7 +30,7 @@ const Hero = () => {
 
 				{/* Hero Headline */}
 				<div className="relative m-auto mt-9 lg:mt-12 lg:px-32">
-					<h1 className="text-5xl font-semibold text-center text-black lg:text-[75px] xl:text-[80px] md:text-6xl dark:text-white">
+					<h1 className="text-5xl font-semibold text-center text-black lg:text-[75px] xl:text-[90px] md:text-6xl dark:text-white">
 						Crafting pixels to make{" "}
 						<span className="text-transparent bg-gradient-to-r dark:from-darkprimary from-lightprimary dark:via-purple-500 dark:to-pink-500 via-purple-500 to-pink-500 bg-clip-text">
 							dreams
@@ -40,7 +40,7 @@ const Hero = () => {
 				</div>
 
 				{/* Hero Description */}
-				<div className="relative m-auto mt-8 lg:mt-11 lg:px-44 md:px-16">
+				<div className="relative m-auto mt-8 lg:mt-11 lg:px-44 xl:px-64 md:px-16">
 					<p className="text-lg font-normal leading-8 text-center text-black lg:text-[20px] lg:leading-10 dark:font-light dark:text-white">
 						A{" "}
 						<span className="dark:text-darkprimary text-lightprimary">
