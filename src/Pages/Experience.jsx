@@ -28,7 +28,7 @@ const Experience = () => {
 						UI/UX Designer
 					</h1>
 					<p className="text-lg font-light lg:text-[15px] mt-14">
-						July 2020 - Present
+						May 2023 - Present
 					</p>
 					<div className="items-center w-full pt-3 pb-[15px] mt-7 text-center rounded-lg dark:bg-white bg-black">
 						<p className="text-[17px] lg:text-[15px] font-medium text-white dark:text-black">
@@ -79,7 +79,7 @@ const Experience = () => {
 						UI/UX Designer
 					</h1>
 					<p className="text-lg font-light lg:text-[15px] mt-14">
-						July 2020 - Present
+						Nov 2022 - May 2023
 					</p>
 					<div className="items-center w-full pt-3 pb-[15px] mt-7 text-center rounded-lg bg-white">
 						<p className="text-[17px] lg:text-[15px] font-medium text-black">
