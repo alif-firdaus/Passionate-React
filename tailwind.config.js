@@ -44,6 +44,7 @@ module.exports = {
 			padding: {
 				sectionpxsm: "var(--sectionpxsm)",
 				sectionpxlg: "var(--sectionpxlg)",
+				sectionpxxl: "var(--sectionpxxl)",
 			},
 			fontFamily: {
 				outfit: ["Outfit"],

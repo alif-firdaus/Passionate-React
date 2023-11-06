@@ -29,6 +29,9 @@
 
 	/* Padding X lg */
 	--sectionpxlg: 56px;
+
+	/* Padding X xl */
+	--sectionpxxl: 128px;
 }
 
 * {
