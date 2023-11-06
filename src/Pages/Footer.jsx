@@ -20,12 +20,7 @@ const Footer = () => {
 				<img
 					src={pattern4}
 					alt="pattern4"
-					className="absolute bottom-0 block w-screen origin-bottom-right h-96 opacity-20 lg:hidden"
-				/>
-				<img
-					src={pattern3}
-					alt="pattern3"
-					className="absolute bottom-0 hidden w-screen origin-bottom-right opacity-20 lg:block"
+					className="absolute bottom-0 block w-screen origin-bottom-right h-80 opacity-20 lg:hidden"
 				/>
 				{/* Footer Title */}
 				<div className="flex flex-col justify-between px-sectionpxsm lg:px-sectionpxlg lg:flex-row">
@@ -151,7 +146,7 @@ const Footer = () => {
 				</div>
 
 				{/* Footer Bottom */}
-				<div className="w-full pt-10 mt-16 border-t-[1px] border-opacity-30 border-slate-50 px-sectionpxsm lg:px-sectionpxlg">
+				<div className="w-full pt-10 mt-16 border-t-[1px] dark:border-slate-50 border-slate-400 dark:border-opacity-20 border-opacity-40 px-sectionpxsm lg:px-sectionpxlg">
 					<p className="text-[18px] lg:text-[16px] dark:text-white text-black">
 						&#169; Passionate Personal Website
 					</p>
