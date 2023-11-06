@@ -4,10 +4,10 @@ const Getintouch = () => {
 	return (
 		<div
 			id="getintouch"
-			className="pt-20 pb-56 lg:pb-80 h-fit dark:bg-base bg-lightgrey px-sectionpxsm lg:px-sectionpxlg"
+			className="pt-20 pb-56 lg:pb-80 h-fit dark:bg-base bg-lightgrey px-sectionpxsm lg:px-sectionpxlg xl:px-sectionpxxl"
 		>
 			{/* Get in Touch Title */}
-			<h1 className="text-5xl lg:text-[80px] font-semibold text-center text-black md:text-6xl dark:text-white">
+			<h1 className="text-5xl lg:text-[80px] xl:px-11 font-semibold text-center text-black md:text-6xl dark:text-white">
 				Turning your ideas into{" "}
 				<span className="text-transparent bg-gradient-to-r dark:from-darkprimary from-lightprimary dark:via-purple-500 dark:to-pink-500 via-purple-500 to-pink-500 bg-clip-text">
 					real-life
