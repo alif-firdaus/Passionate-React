@@ -15,10 +15,10 @@ const About = () => {
 		<>
 			<div
 				id="about"
-				className="relative w-full h-auto pt-20 lg:pt-44 px-sectionpxsm lg:px-sectionpxlg"
+				className="relative w-full h-auto pt-20 lg:pt-44 px-sectionpxsm lg:px-sectionpxlg xl:px-sectionpxxl"
 			>
 				{/* About Title */}
-				<h1 className="text-5xl font-semibold text-center text-black lg:text-[70px] lg:px-12 md:text-6xl dark:text-white">
+				<h1 className="text-5xl font-semibold text-center text-black lg:text-[70px] xl:text-[80px] lg:px-12 md:text-6xl dark:text-white">
 					Delivering results that go{" "}
 					<span className="text-transparent bg-gradient-to-r dark:from-darkprimary from-lightprimary dark:via-purple-500 dark:to-pink-500 via-purple-500 to-pink-500 bg-clip-text">
 						beyond expectations
@@ -26,7 +26,7 @@ const About = () => {
 				</h1>
 			</div>
 
-			<div className="flex flex-col pb-40 mt-20 lg:flex-row lg:justify-between lg:items-center lg:gap-12 lg:mt-36 px-sectionpxsm lg:px-sectionpxlg">
+			<div className="flex flex-col pb-40 mt-20 lg:flex-row lg:justify-between lg:items-center lg:gap-12 lg:mt-36 px-sectionpxsm lg:px-sectionpxlg xl:px-sectionpxxl">
 				{/* About Decoration */}
 				<div className="relative flex w-full bg-purple-600 h-fit lg:h-max pt-14 md:pt-16 rounded-3xl">
 					<img
@@ -63,7 +63,7 @@ const About = () => {
 
 				{/* About Description */}
 				<div className="w-full px-8 pt-9 pb-10 text-left h-fit lg:h-max text-black mt-14 lg:mt-0 flex flex-col dark:text-white rounded-xl border-[1px] dark:border-slate-50 border-slate-400 dark:border-opacity-20 border-opacity-40">
-					<h1 className="text-3xl font-semibold lg:text-4xl">
+					<h1 className="text-3xl font-semibold lg:text-4xl xl:text-[50px] xl:leading-none">
 						Elevating products to{" "}
 						<span className="dark:text-darkprimary text-lightprimary">
 							perfection
