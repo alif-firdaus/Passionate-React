@@ -22,7 +22,7 @@ const Footer = () => {
 					className="absolute bottom-0 block w-screen origin-bottom-right h-80 opacity-20 lg:hidden"
 				/>
 				{/* Footer Title */}
-				<div className="flex flex-col justify-between px-sectionpxsm lg:px-sectionpxlg lg:flex-row">
+				<div className="flex flex-col justify-between px-sectionpxsm lg:px-sectionpxlg lg:flex-row xl:px-sectionpxxl xl:flex-row">
 					<div className="flex flex-col lg:z-10">
 						<div className="flex items-center font-semibold cursor-pointer text-[24px] pb-[2px] dark:text-white text-black">
 							Passionate
@@ -145,7 +145,7 @@ const Footer = () => {
 				</div>
 
 				{/* Footer Bottom */}
-				<div className="w-full pt-10 mt-16 border-t-[1px] dark:border-slate-50 border-slate-400 dark:border-opacity-20 border-opacity-40 px-sectionpxsm lg:px-sectionpxlg">
+				<div className="w-full pt-10 mt-16 border-t-[1px] dark:border-slate-50 border-slate-400 dark:border-opacity-20 border-opacity-40 px-sectionpxsm lg:px-sectionpxlg xl:px-sectionpxxl">
 					<p className="text-[18px] lg:text-[16px] dark:text-white text-black">
 						&#169; Passionate Personal Website
 					</p>
