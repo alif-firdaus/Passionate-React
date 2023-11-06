@@ -40,7 +40,7 @@ const Hero = () => {
 				</div>
 
 				{/* Hero Description */}
-				<div className="relative m-auto mt-8 lg:mt-11 lg:px-44">
+				<div className="relative m-auto mt-8 lg:mt-11 lg:px-44 md:px-16">
 					<p className="text-lg font-normal leading-8 text-center text-black lg:text-[20px] lg:leading-10 dark:font-light dark:text-white">
 						A{" "}
 						<span className="dark:text-darkprimary text-lightprimary">
