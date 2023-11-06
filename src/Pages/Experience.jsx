@@ -45,7 +45,7 @@ const Experience = () => {
 							<CheckCircleIcon className="w-[22px] text-purple-500" />
 						</div>
 						<p className="text-lg font-light">
-							Building our MVP product &#40;fixit.id&#41;
+							Improving and maintaining our Crypto E-wallet
 						</p>
 					</div>
 					<div className="flex items-center justify-start gap-4 mt-4">
@@ -53,7 +53,7 @@ const Experience = () => {
 							<CheckCircleIcon className="w-[22px] text-purple-500" />
 						</div>
 						<p className="text-lg font-light">
-							Identifying market opportunities
+							Developing reusable UI assets
 						</p>
 					</div>
 					<div className="flex items-center justify-start gap-4 mt-4">
@@ -61,7 +61,8 @@ const Experience = () => {
 							<CheckCircleIcon className="w-[22px] text-purple-500" />
 						</div>
 						<p className="text-lg font-light">
-							Aligning features with the users' needs
+							Staying in the loop of the latest standards and
+							trends
 						</p>
 					</div>
 				</div>
@@ -93,7 +94,7 @@ const Experience = () => {
 							<CheckCircleIcon className="w-[22px] text-white" />
 						</div>
 						<p className="text-lg font-light">
-							Building our MVP product &#40;fixit.id&#41;
+							Developing user-flow, scenarios, and wireframe
 						</p>
 					</div>
 					<div className="flex items-center justify-start gap-4 mt-4">
@@ -101,7 +102,7 @@ const Experience = () => {
 							<CheckCircleIcon className="w-[22px] text-white" />
 						</div>
 						<p className="text-lg font-light">
-							Identifying market opportunities
+							Work with stakeholders to identify requirements
 						</p>
 					</div>
 					<div className="flex items-center justify-start gap-4 mt-4">
@@ -109,7 +110,7 @@ const Experience = () => {
 							<CheckCircleIcon className="w-[22px] text-white" />
 						</div>
 						<p className="text-lg font-light">
-							Aligning features with the users' needs
+							Aligning relevant features with the users' needs
 						</p>
 					</div>
 				</div>
@@ -157,7 +158,7 @@ const Experience = () => {
 							<CheckCircleIcon className="w-[22px] text-blue-500" />
 						</div>
 						<p className="text-lg font-light">
-							Aligning features with the users' needs
+							Aligning relevant features with the users' needs
 						</p>
 					</div>
 				</div>
