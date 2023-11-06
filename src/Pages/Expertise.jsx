@@ -10,10 +10,10 @@ const Expertise = () => {
 	return (
 		<div
 			id="expertise"
-			className="relative w-full h-auto pt-20 pb-40 lg:pt-44 lg:pb-64 px-sectionpxsm lg:px-sectionpxlg"
+			className="relative w-full h-auto pt-20 pb-40 lg:pt-44 lg:pb-64 px-sectionpxsm lg:px-sectionpxlg xl:px-sectionpxxl"
 		>
 			{/* Expertise Title */}
-			<h1 className="text-5xl lg:text-[70px] lg:px-11 font-semibold text-center text-black md:text-6xl dark:text-white">
+			<h1 className="text-5xl lg:text-[70px] xl:text-[80px] lg:px-11 font-semibold text-center text-black md:text-6xl dark:text-white">
 				Skillset that propels my path as{" "}
 				<span className="text-transparent bg-gradient-to-r dark:from-darkprimary from-lightprimary dark:via-purple-500 dark:to-pink-500 via-purple-500 to-pink-500 bg-clip-text">
 					Tech-savvy Artist
