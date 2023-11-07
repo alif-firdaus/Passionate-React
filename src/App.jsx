@@ -4,15 +4,15 @@ import React from "react";
 import "./input.css";
 
 // Import Section
-import Navbar from "./Pages/Navbar";
-import Hero from "./Pages/Hero";
-import Tools from "./Pages/Tools";
-import About from "./Pages/About";
-import Expertise from "./Pages/Expertise";
-import Experience from "./Pages/Experience";
-import Projects from "./Pages/Projects";
-import Getintouch from "./Pages/Getintouch";
-import Footer from "./Pages/Footer";
+import Navbar from "./Components/Navbar";
+import Hero from "./Components/Hero-Section";
+import Tools from "./Components/Tools-Section";
+import About from "./Components/About-Section";
+import Expertise from "./Components/Expertise-Section";
+import Experience from "./Components/Experience-Section";
+import Projects from "./Components/Project-Section";
+import Getintouch from "./Components/Getintouch-Section";
+import Footer from "./Components/Footer";
 
 const App = () => {
 	return (
