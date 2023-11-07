@@ -13,19 +13,15 @@ function Navbar() {
 	const menuOptions = [
 		{
 			text: "Home",
-			href: "#home",
+			href: "/",
 		},
 		{
 			text: "About",
-			href: "#about",
+			href: "/projects-aqua-wallet",
 		},
 		{
 			text: "Expertise",
 			href: "#expertise",
-		},
-		{
-			text: "Experience",
-			href: "#experience",
 		},
 		{
 			text: "Projects",
@@ -54,9 +50,11 @@ function Navbar() {
 	return (
 		<nav className="sticky top-0 z-10 flex items-center justify-between py-4 border-b-[1px] backdrop-blur-lg dark:border-slate-50 border-slate-400 dark:border-opacity-20 border-opacity-40">
 			{/* Navbar Title */}
-			<div className="flex items-center font-semibold cursor-pointer text-[24px] pb-[2px] dark:text-white text-black ml-[26px] lg:ml-14 xl:ml-32">
-				Passionate
-			</div>
+			<a href="/">
+				<div className="flex items-center font-semibold cursor-pointer text-[24px] pb-[2px] dark:text-white text-black ml-[26px] lg:ml-14 xl:ml-32">
+					Passionate
+				</div>
+			</a>
 
 			<div className="flex items-center justify-between">
 				{/* Navbar Links */}
