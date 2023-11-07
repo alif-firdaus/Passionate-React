@@ -1,10 +1,16 @@
 import React from "react";
 
+// Import React Router
+import { useNavigate } from "react-router";
+
 // Import Images
 import pattern1 from "../Assets/Images/pattern1.png";
 import pattern2 from "../Assets/Images/pattern2.png";
 
 const Hero = () => {
+
+    const navigate = useNavigate ()
+
 	return (
 		<>
 			<img
@@ -53,7 +59,7 @@ const Hero = () => {
 
 				{/* Main Button */}
 				<div className="flex justify-center mt-14 lg:mt-16">
-					<button className="pt-3 pb-[15px] text-[17px] font-medium dark:text-black text-white dark:bg-white bg-black rounded-xl w-fit h-fit px-10 dark:hover:bg-softgrey hover:bg-grey duration-300">
+					<button className="pt-3 pb-[15px] text-[17px] font-medium dark:text-black text-white dark:bg-white bg-black rounded-xl w-fit h-fit px-10 dark:hover:bg-softgrey hover:bg-grey duration-300" onClick={() => navigate("/connect")}>
 						Let's talk!
 					</button>
 				</div>
