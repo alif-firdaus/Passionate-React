@@ -17,15 +17,15 @@ function Navbar() {
 		},
 		{
 			text: "About",
-			href: "/projects-aqua-wallet",
+			href: "/about",
 		},
 		{
 			text: "Expertise",
-			href: "#expertise",
+			href: "/expertise",
 		},
 		{
 			text: "Projects",
-			href: "#projects",
+			href: "/projects",
 		},
 	];
 
