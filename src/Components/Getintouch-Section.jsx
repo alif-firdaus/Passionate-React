@@ -1,6 +1,12 @@
 import React from "react";
 
+// Import React Router
+import { useNavigate } from "react-router";
+
 const Getintouch = () => {
+
+    const navigate = useNavigate ()
+
 	return (
 		<div
 			id="getintouch"
@@ -17,7 +23,7 @@ const Getintouch = () => {
 
 			{/* Main Button */}
 			<div className="flex justify-center mt-16 md:mt-16 lg:mt-28">
-				<button className="pt-3 pb-[15px] text-[17px] font-medium dark:text-black text-white dark:bg-white bg-black rounded-xl w-fit h-fit px-10 dark:hover:bg-softgrey hover:bg-grey duration-300">
+				<button className="pt-3 pb-[15px] text-[17px] font-medium dark:text-black text-white dark:bg-white bg-black rounded-xl w-fit h-fit px-10 dark:hover:bg-softgrey hover:bg-grey duration-300" onClick={() => navigate("/connect")}>
 					Let's talk!
 				</button>
 			</div>
