@@ -10,6 +10,7 @@ import App from "./App";
 import About from "./Components/Pages/About";
 import Expertise from "./Components/Pages/Expertise";
 import Projects from "./Components/Pages/Projects";
+import Connect from "./Components/Pages/Connect";
 
 // Projects
 import Fixit from "./Components/Project/Fixit";
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
 	{
 		path: "/projects",
 		element: <Projects />,
+	},
+	{
+		path: "/connect",
+		element: <Connect />,
 	},
 
 	// Projects
