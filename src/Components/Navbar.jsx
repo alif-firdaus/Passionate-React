@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 
+// Import React Router
+import { useNavigate } from "react-router";
+
 // Import HeroIcons
 import {
 	Bars3Icon,
@@ -9,6 +12,9 @@ import {
 } from "@heroicons/react/24/outline";
 
 function Navbar() {
+	// useNavigate
+	const navigate = useNavigate();
+
 	// Navbar Links //
 	const menuOptions = [
 		{
@@ -112,7 +118,7 @@ function Navbar() {
 					<div className="items-center justify-center hidden lg:flex">
 						<button
 							className="dark:text-black text-white text-[15px] font-medium dark:bg-white bg-black h-[40px] px-6 pb-[2px] rounded-lg dark:hover:bg-softgrey hover:bg-grey duration-300"
-							onClick={() => (window.location.href = "/connect")}
+							onClick={() => navigate("/connect")}
 						>
 							Connect
 						</button>
