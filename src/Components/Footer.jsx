@@ -115,9 +115,6 @@ const Footer = () => {
 								<a href="#expertise">Expertise</a>
 							</p>
 							<p className="text-[18px] lg:text-[16px] dark:text-white text-black cursor-pointer">
-								<a href="#experience">Experience</a>
-							</p>
-							<p className="text-[18px] lg:text-[16px] dark:text-white text-black cursor-pointer">
 								<a href="#projects">Projects</a>
 							</p>
 						</div>
