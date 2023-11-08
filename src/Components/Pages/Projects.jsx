@@ -23,10 +23,10 @@ const Projects = () => {
 			<div className="relative w-full h-auto pt-20 lg:pt-32 pb-44 lg:pb-64 px-sectionpxsm lg:px-sectionpxlg xl:px-sectionpxxl">
 				{/* Projects Title */}
 				<h1 className="text-5xl lg:text-[70px] xl:text-[80px] font-semibold text-center text-black md:text-6xl dark:text-white xl:px-10">
-					Featured projects
+					Featured works
 				</h1>
 
-				{/* Hero Description */}
+				{/* Projects Description */}
 				<div className="relative m-auto mt-5 lg:mt-10 md:px-16">
 					<p className="text-lg font-normal leading-7 text-center text-black lg:text-[20px] lg:leading-10 dark:font-light dark:text-white">
 						For over the years, I have been improving the process to
