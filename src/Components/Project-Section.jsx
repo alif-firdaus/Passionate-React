@@ -6,6 +6,9 @@ import { useNavigate } from "react-router";
 // Import Image
 import fixit from "../Assets/Images/Fixit App.png";
 
+// Import HeroIcons
+import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
+
 const Projects = () => {
 	const navigate = useNavigate();
 
@@ -28,13 +31,14 @@ const Projects = () => {
 				<div className="flex flex-col lg:w-[800px]">
 					<p className="text-[15px]">FIXIT MOBILE APP</p>
 					<h1 className="text-5xl font-semibold mt-7 lg:mt-10">
-						Connecting people with local service provider
+						Connecting people with the best local service providers
 					</h1>
 					<button
-						className="px-5 pt-3 pb-[14px] bg-purple-600 mt-14 rounded-lg text-[16px] w-fit h-fit"
+						className="px-5 flex justify-between gap-4 items-center pt-3 pb-[14px] bg-purple-600 mt-14 rounded-lg text-[16px] w-fit h-fit hover:gap-6 duration-300"
 						onClick={() => navigate("/projects-fixit-mobile-app")}
 					>
-						Case Study coming soon
+						View Case Study
+						<ArrowLongRightIcon className="h-6 text-white" />
 					</button>
 				</div>
 				<div className="flex w-full mt-14 lg:mt-0">
@@ -51,13 +55,14 @@ const Projects = () => {
 				<div className="flex flex-col lg:w-[800px]">
 					<p className="text-[15px]">AQUA WALLET</p>
 					<h1 className="text-5xl font-semibold mt-7 lg:mt-10">
-						Transferring and storing Crypto and NFTs
+						Transferring, and storing Crypto and NFT Asset
 					</h1>
 					<button
-						className="px-5 pt-3 pb-[14px] bg-orange-500 mt-14 rounded-lg text-[16px] w-fit h-fit"
+						className="px-5 flex justify-between gap-4 items-center pt-3 pb-[14px] bg-orange-500 mt-14 rounded-lg text-[16px] w-fit h-fit hover:gap-6 duration-300"
 						onClick={() => navigate("/projects-aqua-wallet")}
 					>
-						Case Study coming soon
+						View Case Study
+						<ArrowLongRightIcon className="h-6 text-white" />
 					</button>
 				</div>
 				<div className="flex w-full mt-14 lg:mt-0">
@@ -77,10 +82,11 @@ const Projects = () => {
 						Platform to fill customer's daily grocery needs
 					</h1>
 					<button
-						className="px-5 pt-3 pb-[14px] bg-blue-600 mt-14 rounded-lg text-[16px] w-fit h-fit"
+						className="px-5 flex justify-between gap-4 items-center pt-3 pb-[14px] bg-blue-600 mt-14 rounded-lg text-[16px] w-fit h-fit hover:gap-6 duration-300"
 						onClick={() => navigate("/projects-swiftbasket")}
 					>
-						Case Study coming soon
+						View Case Study
+						<ArrowLongRightIcon className="h-6 text-white" />
 					</button>
 				</div>
 				<div className="flex w-full mt-14 lg:mt-0">
@@ -97,13 +103,14 @@ const Projects = () => {
 				<div className="flex flex-col lg:w-[800px]">
 					<p className="text-[15px]">E-COMMERCE BUILDER</p>
 					<h1 className="text-5xl font-semibold mt-7 lg:mt-10">
-						Building e-commerce and selling online
+						Building custom e-commerce and selling online
 					</h1>
 					<button
-						className="px-5 pt-3 pb-[14px] bg-green-600 mt-14 rounded-lg text-[16px] w-fit h-fit"
+						className="px-5 flex justify-between gap-4 items-center pt-3 pb-[14px] bg-green-600 mt-14 rounded-lg text-[16px] w-fit h-fit hover:gap-6 duration-300"
 						onClick={() => navigate("/projects-ecommerce-builder")}
 					>
-						Case Study coming soon
+						View Case Study
+						<ArrowLongRightIcon className="h-6 text-white" />
 					</button>
 				</div>
 				<div className="flex w-full mt-14 lg:mt-0">
