@@ -18,7 +18,7 @@ const Projects = () => {
 	const navigate = useNavigate();
 
 	return (
-		<div id="about" className="bg-lightbg dark:bg-darkbg">
+		<div className="bg-lightbg dark:bg-darkbg">
 			<Navbar />
 			<div className="relative w-full h-auto pt-20 lg:pt-32 pb-44 lg:pb-64 px-sectionpxsm lg:px-sectionpxlg xl:px-sectionpxxl">
 				{/* Projects Title */}
